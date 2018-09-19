@@ -11,7 +11,7 @@
   register: nginx_includes_templates
 
 - debug:
-  var: nginx_includes_templates
+    var: nginx_includes_templates
 
 - name: Warn about deprecated Nginx includes directory
   debug:
