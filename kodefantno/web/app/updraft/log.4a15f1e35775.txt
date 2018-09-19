@@ -1,0 +1,81 @@
+0000.033 () Opened log file at time: Wed, 19 Sep 2018 15:38:43 +0000 on http://kodefantno.test/wp
+0000.034 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.15.2.1 WP: 4.9.8 PHP: 7.2.9-1+ubuntu16.04.1+deb.sury.org+1 (fpm-fcgi, Linux kodefantno 4.4.0-116-generic #140-Ubuntu SMP Mon Feb 12 21:23:04 UTC 2018 x86_64) MySQL: 5.5.5 WPLANG: en_US Server: nginx/1.15.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 56.7M | 10.3M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.038 () Free space on disk containing Updraft's temporary directory: 5794.3 MB
+0000.055 () Restore job started. Entities to restore: db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.283 () Entity: db
+0000.283 () restore_backup(backup_file=backup_2018-09-19-0945_kodeFant_b966da6b9799-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.284 () Unpacking backup... (backup_2018-09-19-0945_kodeFant_b966da6b9799-db.gz, 0.7 Mb)
+0000.635 () Database successfully unpacked
+0000.650 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.661 () Using direct MySQL access; value of use_mysqli is: 1
+0000.761 () Tried to raise max_allowed_packet from 16 MB to 32 MB, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.762 () Max packet size: 16 MB
+0000.763 () Entering maintenance mode
+0000.763 () Enabling Maintenance mode&#8230;
+0000.793 () Backup of: http://kodefantno.test/wp
+0000.798 () Site home: http://kodefantno.test
+0000.799 () Content URL: http://kodefantno.test/app
+0000.799 () Uploads URL: http://kodefantno.test/app/uploads
+0000.801 () Old table prefix: wp_
+0000.801 () Site information: multisite=0
+0000.804 () New table prefix: wp_
+0000.828 () Processing table (InnoDB): wp_options
+0001.117 () Restoring prior UD configuration (table: wp_options; keys: 3)
+0001.171 () Processing table (InnoDB): wp_users
+0001.236 () Processing table (InnoDB): wp_usermeta
+0001.282 () Processing table (InnoDB): wp_commentmeta
+0001.333 () Processing table (InnoDB): wp_comments
+0001.373 () Processing table (InnoDB): wp_links
+0001.416 () Processing table (InnoDB): wp_postmeta
+0001.564 () Processing table (InnoDB): wp_posts
+0001.679 () Processing table (InnoDB): wp_term_relationships
+0001.847 () Processing table (InnoDB): wp_term_taxonomy
+0002.001 () Processing table (InnoDB): wp_termmeta
+0002.090 () Processing table (InnoDB): wp_terms
+0002.198 () Processing table (InnoDB): wp_yoast_seo_links
+0002.284 () Processing table (InnoDB): wp_yoast_seo_meta
+0002.429 () Processing table (InnoDB): wp_icl_content_status
+0002.564 () Processing table (InnoDB): wp_icl_core_status
+0002.621 () Processing table (InnoDB): wp_icl_flags
+0002.671 () Database queries processed: 50 in 1.98 seconds
+0002.735 () Processing table (InnoDB): wp_icl_languages
+0002.832 () Processing table (InnoDB): wp_icl_languages_translations
+0003.220 () Processing table (InnoDB): wp_icl_locale_map
+0003.260 () Processing table (InnoDB): wp_icl_message_status
+0003.294 () Processing table (InnoDB): wp_icl_mo_files_domains
+0003.320 () Processing table (InnoDB): wp_icl_node
+0003.349 () Processing table (InnoDB): wp_icl_reminders
+0003.374 () Processing table (InnoDB): wp_icl_string_pages
+0003.602 () Processing table (InnoDB): wp_icl_string_positions
+0003.627 () Processing table (InnoDB): wp_icl_string_status
+0003.658 () Processing table (InnoDB): wp_icl_string_translations
+0003.685 () Processing table (InnoDB): wp_icl_string_urls
+0003.722 () Processing table (InnoDB): wp_icl_strings
+0004.483 () Processing table (InnoDB): wp_icl_translate
+0004.506 () Processing table (InnoDB): wp_icl_translate_job
+0004.520 () Database queries processed: 100 in 3.83 seconds
+0004.530 () Processing table (InnoDB): wp_icl_translation_batches
+0004.553 () Processing table (InnoDB): wp_icl_translation_status
+0004.583 () Processing table (InnoDB): wp_icl_translations
+0004.615 () Processing table (InnoDB): wp_nf3_action_meta
+0004.651 () Processing table (InnoDB): wp_nf3_actions
+0004.682 () Processing table (InnoDB): wp_nf3_chunks
+0004.707 () Processing table (InnoDB): wp_nf3_field_meta
+0004.744 () Processing table (InnoDB): wp_nf3_fields
+0004.779 () Processing table (InnoDB): wp_nf3_form_meta
+0004.858 () Processing table (InnoDB): wp_nf3_forms
+0004.915 () Processing table (InnoDB): wp_nf3_object_meta
+0004.937 () Processing table (InnoDB): wp_nf3_objects
+0004.958 () Processing table (InnoDB): wp_nf3_relationships
+0004.986 () Processing table (InnoDB): wp_nf3_upgrades
+0005.012 () Unlocking database and leaving maintenance mode
+0005.014 () Disabling Maintenance mode&#8230;
+0005.016 () Finished: lines processed: 140 in 4.33 seconds
+0005.019 () Cleaning up rubbish...
+0005.023 () Begin search and replace (updraftplus_restored_db)
+0005.023 () [Database-replace-site-url] Database: search and replace site URL
+0005.023 () This option was not selected.
+0005.114 () Plugin path github-updater/github-updater.php not found: de-activating.
+0005.114 () Plugin path wp-sync-db/wp-sync-db.php not found: de-activating.
+0005.139 () Restore successful!
+0005.139 () Restore successful

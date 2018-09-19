@@ -1,0 +1,67 @@
+0000.172 (R) [notice] Looking for db archive: file name: backup_2018-09-19-0945_kodeFant_b966da6b9799-db.gz
+0000.175 (R) [notice] Archive is expected to be size: 743.5 KB: OK
+0000.284 (R) [notice] Unpacking backup... (backup_2018-09-19-0945_kodeFant_b966da6b9799-db.gz, 0.7 Mb)
+0000.652 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.763 (R) [notice] Enabling Maintenance mode&#8230;
+0000.794 (R) [notice] Backup of: http://kodefantno.test/wp
+0000.798 (R) [notice] Site home: http://kodefantno.test
+0000.799 (R) [notice] Content URL: http://kodefantno.test/app
+0000.799 (R) [notice] Uploads URL: http://kodefantno.test/app/uploads
+0000.800 (R) [notice] Old table prefix: wp_
+0000.801 (R) [notice] Site information: multisite = 0
+0000.805 (R) [notice] New table prefix: wp_
+0000.828 (R) [notice] Processing table (InnoDB):  wp_options
+0001.171 (R) [notice] Processing table (InnoDB):  wp_users
+0001.236 (R) [notice] Processing table (InnoDB):  wp_usermeta
+0001.283 (R) [notice] Processing table (InnoDB):  wp_commentmeta
+0001.336 (R) [notice] Processing table (InnoDB):  wp_comments
+0001.374 (R) [notice] Processing table (InnoDB):  wp_links
+0001.416 (R) [notice] Processing table (InnoDB):  wp_postmeta
+0001.564 (R) [notice] Processing table (InnoDB):  wp_posts
+0001.679 (R) [notice] Processing table (InnoDB):  wp_term_relationships
+0001.847 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy
+0002.001 (R) [notice] Processing table (InnoDB):  wp_termmeta
+0002.090 (R) [notice] Processing table (InnoDB):  wp_terms
+0002.199 (R) [notice] Processing table (InnoDB):  wp_yoast_seo_links
+0002.285 (R) [notice] Processing table (InnoDB):  wp_yoast_seo_meta
+0002.429 (R) [notice] Processing table (InnoDB):  wp_icl_content_status
+0002.564 (R) [notice] Processing table (InnoDB):  wp_icl_core_status
+0002.621 (R) [notice] Processing table (InnoDB):  wp_icl_flags
+0002.672 (R) [notice] Database queries processed: 50 in 1.98 seconds
+0002.735 (R) [notice] Processing table (InnoDB):  wp_icl_languages
+0002.832 (R) [notice] Processing table (InnoDB):  wp_icl_languages_translations
+0003.221 (R) [notice] Processing table (InnoDB):  wp_icl_locale_map
+0003.261 (R) [notice] Processing table (InnoDB):  wp_icl_message_status
+0003.295 (R) [notice] Processing table (InnoDB):  wp_icl_mo_files_domains
+0003.320 (R) [notice] Processing table (InnoDB):  wp_icl_node
+0003.349 (R) [notice] Processing table (InnoDB):  wp_icl_reminders
+0003.374 (R) [notice] Processing table (InnoDB):  wp_icl_string_pages
+0003.602 (R) [notice] Processing table (InnoDB):  wp_icl_string_positions
+0003.627 (R) [notice] Processing table (InnoDB):  wp_icl_string_status
+0003.658 (R) [notice] Processing table (InnoDB):  wp_icl_string_translations
+0003.685 (R) [notice] Processing table (InnoDB):  wp_icl_string_urls
+0003.722 (R) [notice] Processing table (InnoDB):  wp_icl_strings
+0004.483 (R) [notice] Processing table (InnoDB):  wp_icl_translate
+0004.506 (R) [notice] Processing table (InnoDB):  wp_icl_translate_job
+0004.520 (R) [notice] Database queries processed: 100 in 3.83 seconds
+0004.530 (R) [notice] Processing table (InnoDB):  wp_icl_translation_batches
+0004.553 (R) [notice] Processing table (InnoDB):  wp_icl_translation_status
+0004.583 (R) [notice] Processing table (InnoDB):  wp_icl_translations
+0004.615 (R) [notice] Processing table (InnoDB):  wp_nf3_action_meta
+0004.651 (R) [notice] Processing table (InnoDB):  wp_nf3_actions
+0004.682 (R) [notice] Processing table (InnoDB):  wp_nf3_chunks
+0004.707 (R) [notice] Processing table (InnoDB):  wp_nf3_field_meta
+0004.745 (R) [notice] Processing table (InnoDB):  wp_nf3_fields
+0004.779 (R) [notice] Processing table (InnoDB):  wp_nf3_form_meta
+0004.859 (R) [notice] Processing table (InnoDB):  wp_nf3_forms
+0004.915 (R) [notice] Processing table (InnoDB):  wp_nf3_object_meta
+0004.937 (R) [notice] Processing table (InnoDB):  wp_nf3_objects
+0004.959 (R) [notice] Processing table (InnoDB):  wp_nf3_relationships
+0004.987 (R) [notice] Processing table (InnoDB):  wp_nf3_upgrades
+0005.014 (R) [notice] Disabling Maintenance mode&#8230;
+0005.016 (R) [notice] Finished: lines processed: 140 in 4.33 seconds
+0005.020 (R) [notice] Cleaning up rubbish...
+0005.023 (R) [notice] This option was not selected.
+0005.114 (R) [notice] Plugin path github-updater/github-updater.php not found: de-activating.
+0005.114 (R) [notice] Plugin path wp-sync-db/wp-sync-db.php not found: de-activating.
+0005.139 (R) [notice] Restore successful!

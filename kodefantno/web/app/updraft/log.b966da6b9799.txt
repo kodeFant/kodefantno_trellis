@@ -261,3 +261,7 @@
 0020.262 (0) Sending email ('Database only (files were not part of this particular schedule)') report (attachments: 0, size: 0 KB) to: lars....
 0020.286 (0) PHP event: code E_NOTICE: Undefined index: SERVER_NAME (line 330, wp-includes/pluggable.php)
 0020.297 (0) The backup apparently succeeded and is now complete
+0000.000 (1) Opened log file at time: Wed, 19 Sep 2018 15:45:05 +0000 on http://kodefantno.test/wp
+0000.004 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.15.2.1 WP: 4.9.8 PHP: 7.2.9-1+ubuntu16.04.1+deb.sury.org+1 (cli, Linux kodefantno 4.4.0-116-generic #140-Ubuntu SMP Mon Feb 12 21:23:04 UTC 2018 x86_64) MySQL: 5.5.5 WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 48M | 50.3M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0000.008 (1) Free space on disk containing Updraft's temporary directory: 5777.5 MB
+0000.011 (1) This backup task (b966da6b9799) is either complete or began over 2 days ago: ending (1537371905.981, ) (existing jobdata keys: )
