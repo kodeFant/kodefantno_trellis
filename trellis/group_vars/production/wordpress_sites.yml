@@ -11,7 +11,7 @@ wordpress_sites:
           - driftercode.com
           - www.driftercode.com
     local_path: ../kodefantno # path targeting local Bedrock site directory (relative to Ansible root)
-    repo: git@github.com:kodeFant/trellis_kodefantno_test.git # replace with your Git repo URL
+    repo: git@github.com:kodeFant/kodefantno_trellis.git # replace with your Git repo URL
     repo_subtree_path: kodefantno # relative path to your Bedrock/WP directory in your repo
     branch: master
     multisite:

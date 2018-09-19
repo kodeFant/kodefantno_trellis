@@ -5,7 +5,6 @@ location ~* \.(?:jpg|jpeg|gif|png|ico|cur|gz|svg|svgz|mp4|ogg|ogv|webm|htc)$ {
   gzip_vary on;
 }
 
-# CSS and Javascript
 location ~* \.(?:css|js)$ {
   expires 1y;
   access_log off;

@@ -166,6 +166,20 @@ function kodeFant_comment($comment, $args, $depth)
         endif;
 }
 
+// Register Script
+function custom_scripts()
+{
+    wp_deregister_script('jquery');
+    wp_register_script('jquery', '//code.jquery.com/jquery-1.11.0.min.js', false, '1.11', true);
+    wp_enqueue_script('jquery');
+    wp_deregister_script('jquery-migrate');
+    wp_register_script('jquery-migrate', '//code.jquery.com/jquery-migrate-1.2.1.min.js', array( 'jquery' ), '1.2.1', true);
+    wp_enqueue_script('jquery-migrate');
+}
+
+// Hook into the 'wp_enqueue_scripts' action
+add_action('wp_enqueue_scripts', 'custom_scripts');
+
 function posts_ingress()
 {
     return get_field('posts_ingress');
