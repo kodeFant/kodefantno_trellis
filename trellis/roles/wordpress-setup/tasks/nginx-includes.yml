@@ -52,3 +52,5 @@
                }}"
   when: nginx_includes_d_cleanup
   notify: reload nginx
+- debug:
+  var: nginx_includes_templates
