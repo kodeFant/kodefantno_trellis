@@ -1,0 +1,102 @@
+abbr,
+acronym {
+  cursor: help;
+  text-decoration: underline dotted;
+}
+
+address {
+  font-style: italic;
+  line-height: $line-height;
+  margin-bottom: 1rem;
+}
+
+big {
+  font-size: 1.25rem;
+}
+
+cite,
+em {
+  font-style: italic;
+}
+
+hr,
+code,
+kbd,
+tt {
+  background-color: rgba(128, 128, 128, 0.4);
+}
+
+code,
+ins,
+kbd {
+  padding: 0.125rem 0.25rem;
+}
+
+kbd,
+tt {
+  font-family: monospace;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+ins {
+  background-color: $blue;
+  text-decoration: none;
+  color: $white;
+}
+
+pre {
+  border: 1px solid $orange;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0 0 1.75rem;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.75rem;
+  white-space: pre;
+  white-space: pre-wrap;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+strong {
+  font-weight: 700;
+}
+
+q {
+  quotes: "«" "»";
+}
+
+q::before {
+  content: open-quote;
+}
+
+q::after {
+  content: close-quote;
+}
+
+var {
+  font-style: italic;
+}

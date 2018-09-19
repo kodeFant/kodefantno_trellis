@@ -1,0 +1,51 @@
+.blog .content,
+.archive .content {
+  display: block;
+  // Main Content Area
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+
+    a {
+      color: $black;
+    }
+  }
+
+  .main {
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: 1fr;
+
+    @include breakpoint(phablet) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include breakpoint(laptop) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  .page-header {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+
+  img {
+    height: 16rem;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  article {
+    transition: margin 0.3s;
+
+    &:hover {
+      margin-top: -0.4rem;
+      margin-bottom: 0.4rem;
+      background-color: $gray;
+    }
+  }
+}

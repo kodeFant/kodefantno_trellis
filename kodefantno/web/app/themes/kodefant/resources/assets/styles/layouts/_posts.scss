@@ -1,0 +1,124 @@
+.post-template-default {
+  header {
+    h1 {
+      margin-top: 1rem;
+      padding-top: 0;
+      color: $dark-orange;
+    }
+
+    .preamble {
+      color: $black;
+      font-size: 1.8rem;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      padding-top: 0;
+      font-family: $main-font;
+      font-weight: 300;
+    }
+
+    .meta-head {
+      @include breakpoint(tablet) {
+        display: none;
+      }
+    }
+
+    .post-byline {
+      border-top: 1px dotted gray;
+      border-bottom: 1px dotted gray;
+      font-weight: 700;
+      line-height: $line-height;
+      max-width: 40rem;
+      margin-bottom: 1rem;
+      color: $dark-gray;
+
+      @include breakpoint(tablet) {
+        margin-bottom: 0;
+      }
+
+      .post-meta-category {
+        a {
+          @include breakpoint(tablet) {
+            text-transform: uppercase;
+            color: inherit;
+          }
+
+          &:hover,
+          &:active {
+            color: $orange;
+          }
+        }
+      }
+
+      .byline {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @include breakpoint(tablet) {
+          flex-direction: row;
+        }
+      }
+    }
+
+    h2 {
+      padding: 0;
+    }
+  }
+
+  .content {
+    display: block;
+
+    @include breakpoint(tablet) {
+      display: grid;
+      grid-template-columns: minmax(30rem, 40rem) minmax(10rem, auto);
+      grid-template-areas: "post-header post-header" "post-content ." "post-sidebar .";
+      grid-gap: 1rem;
+
+      /* max-width: 40rem; */
+
+      header {
+        grid-area: post-header;
+        max-width: 40rem;
+      }
+
+      article.post {
+        div.entry-content {
+          grid-area: post-content;
+        }
+      }
+
+      aside.sidebar {
+        grid-area: post-sidebar;
+
+        .sidebar-content {
+          background-color: rgba($gray, 0.4);
+          max-width: 20rem;
+
+          section.widget {
+            padding: 1rem;
+          }
+        }
+      }
+    }
+
+    @include breakpoint(laptop) {
+      grid-template-areas: "post-header post-header" "post-content post-sidebar";
+      grid-gap: 1rem;
+    }
+  }
+}
+
+.tags {
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+  font-weight: 700;
+  line-height: $line-height;
+  max-width: 40rem;
+  margin-bottom: 1rem;
+  color: $dark-gray;
+}
+
+.previous-and-next {
+  display: flex;
+  justify-content: space-between;
+}

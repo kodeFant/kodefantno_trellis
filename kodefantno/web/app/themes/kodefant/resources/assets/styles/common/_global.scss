@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+body {
+  color: $black;
+  background-color: $white;
+  font-family: $main-font;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "custom"
+    "main-content"
+    "footer";
+  grid-template-columns: 1fr;
+}
+
+a {
+  text-decoration: none;
+  color: $blue;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 2rem;
+  color: rgb(221, 144, 0);
+
+  a {
+    color: rgb(221, 144, 0);
+  }
+}
+
+a:hover {
+  color: $orange;
+  text-decoration: underline dotted;
+}
+
+h2 a:hover {
+  text-decoration: none;
+  border-bottom: 2px dotted $orange;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: $blue;
+}
+
+h4 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 1.3rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $header-font;
+  padding: 1rem 0;
+}
+
+p {
+  line-height: $line-height;
+  letter-spacing: 0.035rem;
+  margin-bottom: 1rem;
+}
+
+// Grid Areas
+header {
+  grid-area: header;
+}
+
+.wrap.container {
+  grid-area: main-content;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 1rem;
+
+  @include breakpoint(tablet) {
+    margin: 0 $desktop-margin;
+  }
+
+  ol {
+    list-style: decimal inside;
+  }
+
+  ul {
+    list-style: disc inside;
+  }
+
+  li {
+    margin: 0.8rem;
+    line-height: 22px;
+  }
+}
+
+footer {
+  grid-area: footer;
+}
+
+.content {
+  // Content Grid
+  display: grid;
+
+  // Other
+  align-self: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  width: 90vw;
+  max-width: 100%;
+
+  @include breakpoint(tablet) {
+    grid-template-columns: minmax(20rem, 40rem) minmax(10rem, auto);
+
+    /* max-width: 40rem; */
+  }
+}
+
+.mobile-hidden {
+  @include breakpoint(mobileonly) {
+    display: none !important;
+  }
+}
+
+.desktop-hidden {
+  @include breakpoint(phablet) {
+    display: none !important;
+  }
+}
+
+::selection {
+  background: $black;
+  color: $orange;
+}
+
+::-moz-selection {
+  background: $black;
+  color: $orange;
+}

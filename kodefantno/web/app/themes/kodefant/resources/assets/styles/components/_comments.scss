@@ -1,0 +1,105 @@
+// TODO: .comment-list {}
+// TODO: .comment-list ol {}
+// TODO: .comment-form p {}
+// TODO: .comment-form input {}
+// TODO: .comment-form textarea {}
+
+#comments {
+  max-width: 100%;
+
+  ol.comment-list {
+    background-color: $gray;
+    list-style: none;
+    padding: 1rem;
+
+    img.avatar {
+      border-radius: 50%;
+      float: left;
+      margin: 0.3rem;
+    }
+
+    li.comment {
+      display: grid;
+      border-bottom: 1px rgba($black, 0.2) dashed;
+      padding: 0;
+      margin: 0;
+
+      @include breakpoint(tablet) {
+        padding: 1rem;
+      }
+
+      // Nested comments
+      li.comment {
+        border-bottom: none;
+        background-color: rgba($black, 0.1);
+        margin: 0;
+        margin-right: 0;
+        padding: 0;
+
+        @include breakpoint(tablet) {
+          padding: 0.3rem;
+          padding-bottom: 0;
+          margin-left: 0.3rem;
+        }
+      }
+    }
+  }
+}
+
+.comment-body {
+  padding: 1rem;
+}
+
+.comment-date {
+  a {
+    font-size: 0.8rem;
+    color: rgba($black, 0.8);
+  }
+}
+
+span.says {
+  display: none;
+}
+
+cite.fn {
+  font-family: $header-font;
+  font-size: 2rem;
+  font-style: normal;
+}
+
+.comment-text {
+  color: $black;
+  font-family: Courier, monospace;
+}
+
+/********************
+*    Comment Form   *
+********************/
+#respond {
+  a#cancel-comment-reply-link {
+    color: $red;
+    float: right;
+    font-size: 1rem;
+
+    @include breakpoint(mobileonly) {
+      float: none;
+      display: block;
+      margin-top: 1rem;
+    }
+  }
+
+  label {
+    color: rgba($black, 0.9);
+    font-size: 0.8rem;
+  }
+
+  .required {
+    color: $red;
+  }
+}
+
+.akismet_comment_form_privacy_notice {
+  color: rgba($black, 0.9);
+  font-size: 0.8rem;
+}
+

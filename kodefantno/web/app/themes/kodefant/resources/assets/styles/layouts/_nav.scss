@@ -1,0 +1,300 @@
+
+
+// General Header Settings
+header {
+  transition: opacity 0.5s;
+}
+
+header.banner {
+  background-color: $background-nav;
+
+  a {
+    color: $brand-primary;
+    text-decoration: none;
+
+    &:hover,
+    &:active {
+      color: $orange;
+    }
+  }
+}
+
+// The container of both brand and menu
+.banner .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 0;
+
+  @include breakpoint(phablet) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .mobile-brand {
+    margin-bottom: 1rem;
+
+    &.brand {
+      font-size: 4.5rem;
+    }
+  }
+
+  //The Brand
+  .brand {
+    font-family: $header-font;
+    font-size: 2.8rem;
+    padding: 0.2rem;
+    color: $orange;
+
+    @include breakpoint(phablet) {
+      margin-left: $tablet-margin;
+    }
+
+    @include breakpoint(tablet) {
+      margin-left: $desktop-margin;
+    }
+
+    // Hover on the brand
+    &:hover,
+    &:active {
+      color: $white;
+    }
+  }
+
+  // Nav Menu
+  .nav-primary {
+
+    // Mobile settings for nav menu
+    @include breakpoint(mobileonly) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-content: center;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      z-index: 1;
+      height: 100vh;
+      width: 100%;
+      padding-bottom: $navbar-height;
+      background-color: $background-nav;
+    }
+
+    // Tablet settings for nav menu
+    @include breakpoint(phablet) {
+      margin-right: $tablet-margin;
+      display: flex;
+    }
+
+    // Desktop Settings for Nav Menu
+    @include breakpoint(tablet) {
+      margin-right: $desktop-margin;
+    }
+
+    // The Main Menu unordered list
+    ul#menu-main-nav,
+    ul#menu-main-english {
+      display: flex;
+      flex-direction: column;
+
+      @include breakpoint(phablet) {
+        flex-direction: row;
+      }
+
+      // List items of Main Menu
+      li {
+        padding: 0.5rem 1rem;
+        position: relative;
+        font-size: 2.5rem;
+        font-weight: 400;
+        font-family: $header-font;
+
+        &.current_page_parent,
+        &.current_page_item {
+          a {
+            color: $orange;
+          }
+        }
+
+        // List items Mobile View
+        @include breakpoint(mobileonly) {
+          background-color: ($black, 0);
+          border-bottom: gray solid 1px;
+
+          &:first-of-type {
+            border-top: gray solid 1px;
+          }
+
+          &:hover {
+            background-color: $orange;
+
+            a {
+              color: $black;
+            }
+          }
+        }
+
+        // List items Tablet Up View
+        @include breakpoint(phablet) {
+          background-color: $background-nav;
+          text-transform: uppercase;
+          font-size: 0.9rem;
+          font-family: $main-font;
+        }
+
+        // The Sub Menu
+        ul.sub-menu {
+          display: block;
+          position: static;
+          background-color: rgba($black, 0);
+          padding-top: 1rem;
+          padding-bottom: 1.5rem;
+
+          &.desktop-hidden {
+            display: none;
+          }
+
+          // The Sub Menu in tablet and up
+          @include breakpoint(phablet) {
+            position: absolute;
+            background-color: $background-nav;
+            color: white;
+            top: 1.5rem;
+            left: 0;
+            padding-top: 0.5rem;
+            width: 10rem;
+
+            // Sub Menu Desktop Hidden Class which is added through JavaScript
+            &.desktop-hidden {
+              display: none;
+            }
+          }
+
+          // THe Last Sub Menu Item has a smaller padding bottom
+          &:last-of-type {
+            padding-bottom: 0.3rem;
+          }
+
+          // List items of Sub Menu
+          li {
+            position: static;
+            border-bottom: 0;
+
+            @include breakpoint(mobileonly) {
+              font-size: 1.4rem;
+            }
+
+            &:not(.current_page_item) a {
+              font-family: $main-font;
+              font-weight: 300;
+              color: $black;
+
+              @include breakpoint(phablet) {
+                color: $white;
+              }
+            }
+
+            .sub-menu {
+              background-color: rgba($black, 0);
+              top: 2rem;
+              left: 0;
+              padding-top: 0.5rem;
+              z-index: 1;
+
+              @include breakpoint(phablet) {
+                background-color: $background-nav;
+                color: $white;
+                padding-left: 2rem;
+              }
+
+              a {
+                @include breakpoint(mobileonly) {
+                  background: $black;
+                  color: $orange;
+                }
+
+                &:hover,
+                &:active {
+                  background: $black;
+                  color: $orange;
+
+                  @include breakpoint(mobileonly) {
+                    background: $black;
+                    color: $orange;
+                  }
+                }
+
+                @include breakpoint(phablet) {
+                  font-size: inherit;
+                  font-weight: 300;
+                  color: inherit;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.menu-main-nav-container,
+.menu-main-english-container {
+  @include breakpoint(mobileonly) {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.menu-item-has-children {
+  position: relative;
+}
+
+.menu-item-has-children::after {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  content: "\f107";
+  color: rgba($gray, 0.3);
+  font: normal normal bold 2rem/1 FontAwesome, sans-serif;
+  margin-left: 0.1rem;
+
+  @include breakpoint(phablet) {
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
+    content: "\f107";
+    color: rgba($orange, 0.7);
+    font: normal normal normal 14px/1 FontAwesome, sans-serif;
+    margin-left: 0.1rem;
+  }
+}
+
+.mobile-button-container {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  background: rgba($black, 0.95);
+  color: $dark-orange;
+  font-family: $main-font;
+  overflow: hidden;
+  padding: 0.4rem 0.6rem;
+  text-align: right;
+  cursor: pointer;
+
+  .mobile-button {
+    font-size: 1.5rem;
+    padding: 0;
+
+    @include breakpoint(smallmobileonly) {
+      font-size: 2rem;
+    }
+
+    @include breakpoint(phablet) {
+      display: none;
+    }
+  }
+}

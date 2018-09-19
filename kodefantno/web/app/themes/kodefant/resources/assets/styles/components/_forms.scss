@@ -1,0 +1,23 @@
+/** Search form */
+// TODO: .search-form {}
+// TODO: .search-form label {}
+// TODO: .search-form .search-field {}
+// TODO: .search-form .search-submit {}
+input,
+textarea {
+  display: block;
+  width: 100%;
+  font-family: monospace;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+  outline: none;
+  border: 2px solid rgba($black, 0.5);
+
+  &:focus {
+    border: 2px dashed $orange;
+  }
+}
+
+.submit {
+  font-size: 1rem;
+}

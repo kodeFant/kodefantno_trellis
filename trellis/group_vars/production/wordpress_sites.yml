@@ -1,0 +1,28 @@
+# Documentation: https://roots.io/trellis/docs/remote-server-setup/
+# `wordpress_sites` options: https://roots.io/trellis/docs/wordpress-sites
+# Define accompanying passwords/secrets in group_vars/production/vault.yml
+
+wordpress_sites:
+  kodefant.no:
+    site_hosts:
+      - canonical: kodefant.no
+        redirects:
+          - www.kodefant.no
+          - driftercode.com
+          - www.driftercode.com
+    local_path: ../kodefantno # path targeting local Bedrock site directory (relative to Ansible root)
+    repo: git@github.com:kodeFant/trellis_kodefantno_test.git # replace with your Git repo URL
+    repo_subtree_path: kodefantno # relative path to your Bedrock/WP directory in your repo
+    branch: master
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: true
+      duration: 30s
+      skip_cache_uri: /wp-admin/|/xmlrpc.php|wp-.*.php|/feed/|index.php|sitemap(_index)?.xml
+      skip_cache_cookie: comment_author|wordpress_[a-f0-9]+|wp-postpass|wordpress_no_cache|wordpress_logged_in
+    env:
+      disable_wp_cron: false

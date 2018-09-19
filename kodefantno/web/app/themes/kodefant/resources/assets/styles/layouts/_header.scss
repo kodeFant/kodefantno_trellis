@@ -1,0 +1,58 @@
+// TODO: .banner .nav li {}
+// TODO: .banner .nav a {}
+
+.content {
+  width: 100%;
+}
+
+.frontpage_header_text {
+  font-size: 1.5rem;
+  font-family: $header-font;
+  margin-bottom: 2rem;
+}
+
+// Landing page
+.landing {
+  display: flex;
+  align-items: flex-start;
+  grid-area: custom;
+  width: 100vw;
+  height: 100vh;
+  height: calc(100vh - #{$navbar-height});
+  background: $white no-repeat right bottom;
+  background-image: url(../images/trampsparent-top.png);
+  background-size: contain;
+
+  @include breakpoint(mobileonly) {
+    background-size: auto contain;
+  }
+
+  @include breakpoint(tablet) {
+    align-items: center;
+  }
+}
+
+.landing-content {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba($white, 0.7);
+  grid-area: custom;
+  margin: 1.5rem;
+
+  @include breakpoint(phablet) {
+    margin: $tablet-margin;
+  }
+
+  @include breakpoint(tablet) {
+    max-width: 60%;
+    margin: $desktop-margin;
+  }
+
+  .header_tittel {
+    font-size: 4rem;
+  }
+}
+
+.frontpage_blog_buttons {
+  text-align: center;
+}

@@ -1,0 +1,139 @@
+/**
+ * WordPress Generated Classes
+ * @see http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+ */
+
+/** Media alignment */
+
+img.alignright {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+img.alignleft {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.alignnone {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.aligncenter {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.alignleft,
+.alignright {
+  margin: 0 auto;
+  margin-bottom: ($spacer / 2);
+  height: auto;
+}
+
+@media (min-width: 30rem) {
+  .alignleft {
+    float: left;
+    margin-right: ($spacer / 2);
+  }
+
+  .alignright {
+    float: right;
+    margin-left: ($spacer / 2);
+  }
+}
+
+/** Captions */
+
+// TODO: .wp-caption {}
+// TODO: .wp-caption img {}
+// TODO: .wp-caption-text {}
+
+/** Text meant only for screen readers */
+.screen-reader-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  color: $black;
+  background: #fff;
+}
+
+.wp-caption img[class*="wp-image-"] {
+  display: block;
+  margin: 0;
+  max-width: 100%;
+}
+
+.wp-caption-text {
+  font-style: italic;
+  background-color: rgba(gray, 0.2);
+  padding: ($spacer / 3);
+}
+
+/** Search Form */
+
+form.search-form input[type=search] {
+  padding: 10px;
+  font-size: 1.5rem;
+  border: 1px solid grey;
+  float: left;
+  width: 70%;
+  background: $white;
+  outline: none;
+  border-radius: 1rem 0 0 1rem;
+  font-family: $header-font;
+  -webkit-appearance: none;
+
+  @include breakpoint(tablet) {
+    width: 80%;
+  }
+}
+
+/* Style the submit button */
+
+form.search-form {
+  input[type=submit] {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    background: $black;
+    color: $orange;
+    font-family: $header-font;
+    font-size: 1.5rem;
+    border: 1px solid grey;
+    border-left: none;
+    border-radius: 0 1rem 1rem 0;
+    cursor: pointer;
+
+    @include breakpoint(tablet) {
+      width: 20%;
+    }
+  }
+}
+
+form.search-form input[type=submit]:hover {
+  background: rgba($black, 0.9);
+}
+
+/* Clear floats */
+form.search-form::after {
+  content: "";
+  clear: both;
+  display: table;
+}
