@@ -58,11 +58,14 @@
     {
       "type": "vcs",
       "url": "git@bitbucket.org:kodeFant/wp-rocket.git"
-    }
-    ,
+    },
     {
       "type": "vcs",
       "url": "git@bitbucket.org:kodeFant/advanced-custom-fields-pro.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:wp-sync-db/wp-sync-db.git"
     }
   ],
   "require": {
@@ -74,7 +77,7 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/advanced-custom-fields-font-awesome": "^2.1",
     "wpackagist-plugin/better-font-awesome": "^1.7",
-    "afragen/github-updater": "^8.2",
+    "wp-sync-db/wp-sync-db": "^1.5",
     "wpackagist-plugin/wordpress-seo": "^8.2",
     "wpackagist-plugin/ninja-forms": "^3.3",
     "wpackagist-plugin/updraftplus": "^1.15",
