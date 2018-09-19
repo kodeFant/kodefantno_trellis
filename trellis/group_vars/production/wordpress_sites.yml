@@ -5,8 +5,9 @@
 wordpress_sites:
   kodefant.no:
     site_hosts:
-      - canonical: kodefant.no
+      - canonical: 206.189.101.222
         redirects:
+          - kodefant.no
           - www.kodefant.no
           - driftercode.com
           - www.driftercode.com
