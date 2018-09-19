@@ -4,47 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0e69edd807fb4517fd7a5ad9e201f393",
+    "content-hash": "b7ed708f204734f38557bf7bc60276a2",
     "packages": [
-        {
-            "name": "afragen/github-updater",
-            "version": "8.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/afragen/github-updater.git",
-                "reference": "fa8edf32ae500e2e6c3bc64a1793d2f8e5869378"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/afragen/github-updater/zipball/fa8edf32ae500e2e6c3bc64a1793d2f8e5869378",
-                "reference": "fa8edf32ae500e2e6c3bc64a1793d2f8e5869378",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Andy Fragen",
-                    "email": "andy@thefragens.com",
-                    "homepage": "https://thefragens.com",
-                    "role": "Developer"
-                }
-            ],
-            "keywords": [
-                "install",
-                "plugin",
-                "theme",
-                "updater",
-                "wordpress"
-            ],
-            "time": "2018-09-13T23:27:18+00:00"
-        },
         {
             "name": "composer/installers",
             "version": "v1.6.0",
@@ -344,12 +305,12 @@
             "time": "2018-09-18T16:21:51+00:00"
         },
         {
-            "name": "kodeFant/wp-rocket",
-            "version": "3.1.4",
+            "name": "kodeFant/updraftplus",
+            "version": "2.15.2",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:kodeFant/wp-rocket.git",
-                "reference": "c1eb3cefa5433d1bb8f4bebdc641a42181a0ab68"
+                "url": "git@bitbucket.org:kodeFant/updraftplus.git",
+                "reference": "a235c9d69b254d27bfb9699e7c388475f559595b"
             },
             "require": {
                 "php": ">=5.6"
@@ -357,16 +318,16 @@
             "type": "wordpress-plugin",
             "authors": [
                 {
-                    "name": "WP Rocket",
-                    "homepage": "https://wp-rocket.me/"
+                    "name": "UpdraftPlus with Migrator",
+                    "homepage": "https://updraftplus.com/"
                 }
             ],
-            "homepage": "https://bitbucket.org/kodeFant/wp-rocket",
+            "homepage": "https://bitbucket.org/kodeFant/updraftplus",
             "keywords": [
                 "plugin",
                 "wordpress"
             ],
-            "time": "2018-09-19T09:41:05+00:00"
+            "time": "2018-09-19T15:10:49+00:00"
         },
         {
             "name": "kodeFant/wpml-cms-nav",
@@ -721,26 +682,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/ninja-forms/"
-        },
-        {
-            "name": "wpackagist-plugin/updraftplus",
-            "version": "1.15.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/updraftplus/",
-                "reference": "tags/1.15.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.15.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/updraftplus/"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
