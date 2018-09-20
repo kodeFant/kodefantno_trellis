@@ -1,0 +1,4 @@
+0000.000 (1) Opened log file at time: Thu, 20 Sep 2018 17:15:04 +0000 on http://kodefantno.test/wp
+0000.005 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.15.2.1 WP: 4.9.8 PHP: 7.2.9-1+ubuntu16.04.1+deb.sury.org+1 (cli, Linux kodefantno 4.4.0-116-generic #140-Ubuntu SMP Mon Feb 12 21:23:04 UTC 2018 x86_64) MySQL: 5.5.5 WPLANG: nb_NO Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 60.3M | 64.3M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0000.011 (1) Free space on disk containing Updraft's temporary directory: 6136.4 MB
+0000.021 (1) This backup task (efbe4e0cd606) is either complete or began over 2 days ago: ending (1537463704.3962, ) (existing jobdata keys: )
