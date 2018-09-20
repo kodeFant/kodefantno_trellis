@@ -72,7 +72,6 @@
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/advanced-custom-fields-font-awesome": "^2.1",
-    "wpackagist-plugin/better-font-awesome": "^1.7",
     "wpackagist-plugin/wordpress-seo": "^8.2",
     "wpackagist-plugin/ninja-forms": "^3.3",
     "wpackagist-plugin/anti-spam": "^5.2",

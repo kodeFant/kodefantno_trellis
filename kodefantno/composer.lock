@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b7ed708f204734f38557bf7bc60276a2",
+    "content-hash": "5a3774573c447bfc4673ea41669b782b",
     "packages": [
         {
             "name": "composer/installers",
@@ -642,26 +642,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/anti-spam/"
-        },
-        {
-            "name": "wpackagist-plugin/better-font-awesome",
-            "version": "1.7.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/better-font-awesome/",
-                "reference": "tags/1.7.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/better-font-awesome.1.7.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/better-font-awesome/"
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
