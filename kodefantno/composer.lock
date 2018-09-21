@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c71457d7e66acacbb758fc6f63d3c32d",
+    "content-hash": "c45cbcc5b2d64b76cf7c28e74b675acc",
     "packages": [
         {
             "name": "composer/installers",
@@ -642,6 +642,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/anti-spam/"
+        },
+        {
+            "name": "wpackagist-plugin/autoptimize",
+            "version": "2.3.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/autoptimize/",
+                "reference": "tags/2.3.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.3.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/autoptimize/"
         },
         {
             "name": "wpackagist-plugin/mailgun",
