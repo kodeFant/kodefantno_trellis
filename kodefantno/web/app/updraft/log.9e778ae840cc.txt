@@ -94,3 +94,669 @@
 0217.952 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-plugins.zip.tmp: 6500 files added (on-disk size: 32925.3 KB)
 0218.276 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-plugins.zip.tmp: 6600 files added (on-disk size: 32925.3 KB)
 0218.508 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (7.3 MB, 486 (6667) files added so far); re-opening (prior size: 32925.3 KB)
+0233.365 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-plugins.zip.tmp: 6700 files added (on-disk size: 35171.3 KB)
+0233.511 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-plugins.zip.tmp: 6800 files added (on-disk size: 35171.3 KB)
+0233.688 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-plugins.zip.tmp: 6900 files added (on-disk size: 35171.3 KB)
+0233.893 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-plugins.zip.tmp: 7000 files added (on-disk size: 35171.3 KB)
+0234.094 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-plugins.zip.tmp: 7100 files added (on-disk size: 35171.3 KB)
+0234.280 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.7 MB, 7435 files batched, 501 (7168) added so far); re-opening (prior size: 35171.3 KB)
+0248.592 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-plugins.zip.tmp: 7200 files added (on-disk size: 36410.1 KB)
+0248.800 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-plugins.zip.tmp: 7300 files added (on-disk size: 36410.1 KB)
+0249.033 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-plugins.zip.tmp: 7400 files added (on-disk size: 36410.1 KB)
+0262.267 (0) The scheduled resumption is within 45 seconds - will reschedule
+0262.276 (0) Rescheduling resumption 1: moving to 345 seconds from now (1537465225)
+0262.290 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0267.841 (0) Created plugins zip (0) - 37071.8 KB in 267.4 s (138.6 KB/s) (sha1: f82348ecd37ec7123312a0fb9497a2c74050a758, sha256: b90551107c609d8c004015e675c2afafa0e1977861d894143f5013c30190e3a3)
+0267.876 (0) Deleting old temporary file: log.a199f37b47b2-browser.txt
+0267.928 (0) Beginning creation of dump of themes (split every: 400 MB)
+0315.117 (0) Total entities for the zip file: 4720 directories, 26197 files (0 skipped as non-modified), 162.8 MB
+0315.167 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0353.089 (0) The time we have been running (353) is approaching the resumption interval (345) - increasing resumption interval to 384
+0353.593 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 100 files added (on-disk size: 882.3 KB)
+0353.798 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 200 files added (on-disk size: 882.3 KB)
+0354.074 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 300 files added (on-disk size: 882.3 KB)
+0354.208 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 400 files added (on-disk size: 882.3 KB)
+0354.618 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 500 files added (on-disk size: 882.3 KB)
+0354.626 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.3 MB, 26197 files batched, 501 (502) added so far); re-opening (prior size: 882.3 KB)
+0400.766 (0) The time we have been running (387.2) is approaching the resumption interval (384) - increasing resumption interval to 418
+0401.641 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 600 files added (on-disk size: 6099.2 KB)
+0402.314 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 700 files added (on-disk size: 6099.2 KB)
+0403.063 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 800 files added (on-disk size: 6099.2 KB)
+0403.380 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 900 files added (on-disk size: 6099.2 KB)
+0403.512 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.4 MB, 399 (901) files added so far); re-opening (prior size: 6099.2 KB)
+0431.513 (0) The time we have been running (431.5) is approaching the resumption interval (418) - increasing resumption interval to 462
+0432.036 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 1000 files added (on-disk size: 6706.5 KB)
+0432.322 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 1100 files added (on-disk size: 6706.5 KB)
+0432.787 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 1200 files added (on-disk size: 6706.5 KB)
+0433.017 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 1300 files added (on-disk size: 6706.5 KB)
+0433.274 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 1400 files added (on-disk size: 6706.5 KB)
+0433.282 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.6 MB, 26197 files batched, 501 (1402) added so far); re-opening (prior size: 6706.5 KB)
+0444.448 (0) The time we have been running (444.4) is approaching the resumption interval (462) - increasing resumption interval to 475
+0444.746 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 1500 files added (on-disk size: 7580.7 KB)
+0444.899 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 1600 files added (on-disk size: 7580.7 KB)
+0445.144 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 1700 files added (on-disk size: 7580.7 KB)
+0445.295 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 1800 files added (on-disk size: 7580.7 KB)
+0445.462 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 1900 files added (on-disk size: 7580.7 KB)
+0445.471 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.8 MB, 26197 files batched, 501 (1903) added so far); re-opening (prior size: 7580.7 KB)
+0454.835 (0) The time we have been running (454.8) is approaching the resumption interval (475) - increasing resumption interval to 485
+0455.137 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 2000 files added (on-disk size: 8007.9 KB)
+0455.313 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 2100 files added (on-disk size: 8007.9 KB)
+0455.449 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 2200 files added (on-disk size: 8007.9 KB)
+0455.572 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 2300 files added (on-disk size: 8007.9 KB)
+0455.729 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 2400 files added (on-disk size: 8007.9 KB)
+0455.745 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.2 MB, 26197 files batched, 501 (2404) added so far); re-opening (prior size: 8007.9 KB)
+0467.768 (0) The time we have been running (467.5) is approaching the resumption interval (485) - increasing resumption interval to 498
+0468.133 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 2500 files added (on-disk size: 8509.5 KB)
+0468.265 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 2600 files added (on-disk size: 8509.5 KB)
+0468.380 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 2700 files added (on-disk size: 8509.5 KB)
+0468.514 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 2800 files added (on-disk size: 8509.5 KB)
+0468.688 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 2900 files added (on-disk size: 8509.5 KB)
+0468.698 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.3 MB, 26197 files batched, 501 (2905) added so far); re-opening (prior size: 8509.5 KB)
+0480.922 (0) The time we have been running (480.9) is approaching the resumption interval (498) - increasing resumption interval to 511
+0481.350 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 3000 files added (on-disk size: 8730.5 KB)
+0481.606 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 3100 files added (on-disk size: 8730.5 KB)
+0481.867 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 3200 files added (on-disk size: 8730.5 KB)
+0482.101 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 3300 files added (on-disk size: 8730.5 KB)
+0482.331 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 3400 files added (on-disk size: 8730.5 KB)
+0482.363 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3 MB, 26197 files batched, 501 (3406) added so far); re-opening (prior size: 8730.5 KB)
+0497.467 (0) The time we have been running (497.4) is approaching the resumption interval (511) - increasing resumption interval to 528
+0497.790 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 3500 files added (on-disk size: 9651.8 KB)
+0498.060 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 3600 files added (on-disk size: 9651.8 KB)
+0498.378 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 3700 files added (on-disk size: 9651.8 KB)
+0498.532 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 3800 files added (on-disk size: 9651.8 KB)
+0498.711 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 3900 files added (on-disk size: 9651.8 KB)
+0498.731 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.8 MB, 26197 files batched, 501 (3907) added so far); re-opening (prior size: 9651.8 KB)
+0512.940 (0) The time we have been running (512.9) is approaching the resumption interval (528) - increasing resumption interval to 543
+0513.439 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 4000 files added (on-disk size: 10977.2 KB)
+0513.613 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 4100 files added (on-disk size: 10977.2 KB)
+0513.782 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 4200 files added (on-disk size: 10977.2 KB)
+0513.976 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 4300 files added (on-disk size: 10977.2 KB)
+0514.145 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 4400 files added (on-disk size: 10977.2 KB)
+0514.174 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.6 MB, 26197 files batched, 501 (4408) added so far); re-opening (prior size: 10977.2 KB)
+0525.437 (0) The time we have been running (525.4) is approaching the resumption interval (543) - increasing resumption interval to 556
+0525.797 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 4500 files added (on-disk size: 11277.7 KB)
+0526.037 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 4600 files added (on-disk size: 11277.7 KB)
+0526.211 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 4700 files added (on-disk size: 11277.7 KB)
+0526.420 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 4800 files added (on-disk size: 11277.7 KB)
+0526.614 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 4900 files added (on-disk size: 11277.7 KB)
+0526.637 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.3 MB, 26197 files batched, 501 (4909) added so far); re-opening (prior size: 11277.7 KB)
+0537.045 (0) The time we have been running (537) is approaching the resumption interval (556) - increasing resumption interval to 568
+0537.436 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 5000 files added (on-disk size: 11788 KB)
+0537.698 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 5100 files added (on-disk size: 11788 KB)
+0537.929 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 5200 files added (on-disk size: 11788 KB)
+0538.100 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 5300 files added (on-disk size: 11788 KB)
+0538.348 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 5400 files added (on-disk size: 11788 KB)
+0538.395 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.8 MB, 26197 files batched, 501 (5410) added so far); re-opening (prior size: 11788 KB)
+0570.606 (0) The time we have been running (566.3) is approaching the resumption interval (568) - increasing resumption interval to 597
+0571.187 (0) The scheduled resumption is within 45 seconds - will reschedule
+0572.527 (0) Rescheduling resumption 1: moving to 642 seconds from now (1537465833)
+0573.695 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 597 + 45 = 642
+0579.724 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (5411) files added so far); re-opening (prior size: 12688 KB)
+0593.751 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 5500 files added (on-disk size: 12688.3 KB)
+0593.952 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 5600 files added (on-disk size: 12688.3 KB)
+0594.134 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 5700 files added (on-disk size: 12688.3 KB)
+0594.373 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 5800 files added (on-disk size: 12688.3 KB)
+0594.635 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 5900 files added (on-disk size: 12688.3 KB)
+0594.685 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.5 MB, 26197 files batched, 501 (5912) added so far); re-opening (prior size: 12688.3 KB)
+0610.344 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 6000 files added (on-disk size: 13299.9 KB)
+0610.748 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 6100 files added (on-disk size: 13299.9 KB)
+0611.103 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 6200 files added (on-disk size: 13299.9 KB)
+0611.335 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 6300 files added (on-disk size: 13299.9 KB)
+0611.636 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 6400 files added (on-disk size: 13299.9 KB)
+0611.864 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.2 MB, 26197 files batched, 501 (6413) added so far); re-opening (prior size: 13299.9 KB)
+0619.848 (0) The time we have been running (619.8) is approaching the resumption interval (642) - increasing resumption interval to 650
+0620.449 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 6500 files added (on-disk size: 14151.4 KB)
+0620.712 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 6600 files added (on-disk size: 14151.4 KB)
+0620.960 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 6700 files added (on-disk size: 14151.4 KB)
+0621.185 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 6800 files added (on-disk size: 14151.4 KB)
+0621.463 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 6900 files added (on-disk size: 14151.4 KB)
+0621.491 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.9 MB, 26197 files batched, 501 (6914) added so far); re-opening (prior size: 14151.4 KB)
+0636.787 (0) The time we have been running (636.6) is approaching the resumption interval (650) - increasing resumption interval to 667
+0637.370 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 7000 files added (on-disk size: 15065.4 KB)
+0637.702 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 7100 files added (on-disk size: 15065.4 KB)
+0638.052 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 7200 files added (on-disk size: 15065.4 KB)
+0638.406 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 7300 files added (on-disk size: 15065.4 KB)
+0638.789 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 7400 files added (on-disk size: 15065.4 KB)
+0638.822 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.4 MB, 26197 files batched, 501 (7415) added so far); re-opening (prior size: 15065.4 KB)
+0646.816 (0) The time we have been running (646.8) is approaching the resumption interval (667) - increasing resumption interval to 677
+0647.158 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 7500 files added (on-disk size: 15882 KB)
+0647.313 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 7600 files added (on-disk size: 15882 KB)
+0647.468 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 7700 files added (on-disk size: 15882 KB)
+0647.633 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 7800 files added (on-disk size: 15882 KB)
+0647.782 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 7900 files added (on-disk size: 15882 KB)
+0647.809 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.5 MB, 26197 files batched, 501 (7916) added so far); re-opening (prior size: 15882 KB)
+0655.766 (0) The time we have been running (655.7) is approaching the resumption interval (677) - increasing resumption interval to 686
+0656.172 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 8000 files added (on-disk size: 18199.9 KB)
+0656.532 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 8100 files added (on-disk size: 18199.9 KB)
+0656.785 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 8200 files added (on-disk size: 18199.9 KB)
+0656.970 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 8300 files added (on-disk size: 18199.9 KB)
+0657.262 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 8400 files added (on-disk size: 18199.9 KB)
+0657.303 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.6 MB, 26197 files batched, 501 (8417) added so far); re-opening (prior size: 18199.9 KB)
+0663.697 (0) The time we have been running (663.7) is approaching the resumption interval (686) - increasing resumption interval to 694
+0664.077 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 8500 files added (on-disk size: 18781.5 KB)
+0664.244 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 8600 files added (on-disk size: 18781.5 KB)
+0664.394 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 8700 files added (on-disk size: 18781.5 KB)
+0664.597 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 8800 files added (on-disk size: 18781.5 KB)
+0664.821 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 8900 files added (on-disk size: 18781.5 KB)
+0664.855 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.8 MB, 26197 files batched, 501 (8918) added so far); re-opening (prior size: 18781.5 KB)
+0672.608 (0) The time we have been running (672.6) is approaching the resumption interval (694) - increasing resumption interval to 703
+0673.125 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 9000 files added (on-disk size: 19638.1 KB)
+0673.374 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 9100 files added (on-disk size: 19638.1 KB)
+0673.616 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 9200 files added (on-disk size: 19638.1 KB)
+0673.770 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 9300 files added (on-disk size: 19638.1 KB)
+0673.921 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 9400 files added (on-disk size: 19638.1 KB)
+0673.952 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.6 MB, 26197 files batched, 501 (9419) added so far); re-opening (prior size: 19638.1 KB)
+0681.252 (0) The time we have been running (681.2) is approaching the resumption interval (703) - increasing resumption interval to 712
+0681.636 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 9500 files added (on-disk size: 20955.9 KB)
+0681.836 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 9600 files added (on-disk size: 20955.9 KB)
+0682.098 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 9700 files added (on-disk size: 20955.9 KB)
+0682.233 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 9800 files added (on-disk size: 20955.9 KB)
+0682.379 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 9900 files added (on-disk size: 20955.9 KB)
+0682.418 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8 MB, 26197 files batched, 501 (9920) added so far); re-opening (prior size: 20955.9 KB)
+0692.462 (0) The time we have been running (692.4) is approaching the resumption interval (712) - increasing resumption interval to 723
+0692.919 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 10000 files added (on-disk size: 23466.1 KB)
+0693.150 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 10100 files added (on-disk size: 23466.1 KB)
+0693.356 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 10200 files added (on-disk size: 23466.1 KB)
+0693.644 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 10300 files added (on-disk size: 23466.1 KB)
+0693.886 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 10400 files added (on-disk size: 23466.1 KB)
+0693.937 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4 MB, 26197 files batched, 501 (10421) added so far); re-opening (prior size: 23466.1 KB)
+0702.148 (0) The time we have been running (702.1) is approaching the resumption interval (723) - increasing resumption interval to 733
+0702.602 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 10500 files added (on-disk size: 24736.3 KB)
+0702.806 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 10600 files added (on-disk size: 24736.3 KB)
+0702.991 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 10700 files added (on-disk size: 24736.3 KB)
+0703.233 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 10800 files added (on-disk size: 24736.3 KB)
+0703.703 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 10900 files added (on-disk size: 24736.3 KB)
+0703.779 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.4 MB, 26197 files batched, 501 (10922) added so far); re-opening (prior size: 24736.3 KB)
+0713.473 (0) The time we have been running (713.4) is approaching the resumption interval (733) - increasing resumption interval to 744
+0713.882 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 11000 files added (on-disk size: 25237.1 KB)
+0714.085 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 11100 files added (on-disk size: 25237.1 KB)
+0714.270 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 11200 files added (on-disk size: 25237.1 KB)
+0714.451 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 11300 files added (on-disk size: 25237.1 KB)
+0714.732 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 11400 files added (on-disk size: 25237.1 KB)
+0714.802 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.2 MB, 26197 files batched, 501 (11423) added so far); re-opening (prior size: 25237.1 KB)
+0725.197 (0) The time we have been running (725.2) is approaching the resumption interval (744) - increasing resumption interval to 756
+0725.692 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 11500 files added (on-disk size: 26612.3 KB)
+0725.839 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 11600 files added (on-disk size: 26612.3 KB)
+0726.057 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 11700 files added (on-disk size: 26612.3 KB)
+0726.199 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 11800 files added (on-disk size: 26612.3 KB)
+0726.356 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 11900 files added (on-disk size: 26612.3 KB)
+0726.396 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.2 MB, 26197 files batched, 501 (11924) added so far); re-opening (prior size: 26612.3 KB)
+0735.233 (0) The time we have been running (735.2) is approaching the resumption interval (756) - increasing resumption interval to 766
+0735.652 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 12000 files added (on-disk size: 28248.5 KB)
+0735.783 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 12100 files added (on-disk size: 28248.5 KB)
+0735.911 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 12200 files added (on-disk size: 28248.5 KB)
+0736.038 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 12300 files added (on-disk size: 28248.5 KB)
+0736.168 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 12400 files added (on-disk size: 28248.5 KB)
+0736.201 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.2 MB, 26197 files batched, 501 (12425) added so far); re-opening (prior size: 28248.5 KB)
+0747.709 (0) The time we have been running (747.7) is approaching the resumption interval (766) - increasing resumption interval to 778
+0748.340 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 12500 files added (on-disk size: 28429.3 KB)
+0748.516 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 12600 files added (on-disk size: 28429.3 KB)
+0748.697 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 12700 files added (on-disk size: 28429.3 KB)
+0748.866 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 12800 files added (on-disk size: 28429.3 KB)
+0749.042 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 12900 files added (on-disk size: 28429.3 KB)
+0749.089 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.3 MB, 26197 files batched, 501 (12926) added so far); re-opening (prior size: 28429.3 KB)
+0777.368 (0) The time we have been running (777.3) is approaching the resumption interval (778) - increasing resumption interval to 808
+0777.813 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 13000 files added (on-disk size: 28637.4 KB)
+0777.997 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 13100 files added (on-disk size: 28637.4 KB)
+0778.127 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 13200 files added (on-disk size: 28637.4 KB)
+0778.261 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 13300 files added (on-disk size: 28637.4 KB)
+0778.405 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 13400 files added (on-disk size: 28637.4 KB)
+0778.448 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.7 MB, 26197 files batched, 501 (13427) added so far); re-opening (prior size: 28637.4 KB)
+0794.733 (0) The time we have been running (794.7) is approaching the resumption interval (808) - increasing resumption interval to 825
+0795.943 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 13500 files added (on-disk size: 29253.2 KB)
+0796.179 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 13600 files added (on-disk size: 29253.2 KB)
+0796.445 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 13700 files added (on-disk size: 29253.2 KB)
+0796.748 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 13800 files added (on-disk size: 29253.2 KB)
+0797.246 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 13900 files added (on-disk size: 29253.2 KB)
+0797.378 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.8 MB, 26197 files batched, 501 (13928) added so far); re-opening (prior size: 29253.2 KB)
+0815.612 (0) The time we have been running (815.6) is approaching the resumption interval (825) - increasing resumption interval to 846
+0816.147 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 14000 files added (on-disk size: 30202.5 KB)
+0816.362 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 14100 files added (on-disk size: 30202.5 KB)
+0816.563 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 14200 files added (on-disk size: 30202.5 KB)
+0816.822 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 14300 files added (on-disk size: 30202.5 KB)
+0816.986 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 14400 files added (on-disk size: 30202.5 KB)
+0817.051 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.4 MB, 26197 files batched, 501 (14429) added so far); re-opening (prior size: 30202.5 KB)
+0829.217 (0) The time we have been running (829.2) is approaching the resumption interval (846) - increasing resumption interval to 860
+0829.815 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 14500 files added (on-disk size: 31287.4 KB)
+0830.072 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 14600 files added (on-disk size: 31287.4 KB)
+0830.231 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 14700 files added (on-disk size: 31287.4 KB)
+0830.363 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 14800 files added (on-disk size: 31287.4 KB)
+0830.482 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 14900 files added (on-disk size: 31287.4 KB)
+0830.522 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.5 MB, 26197 files batched, 501 (14930) added so far); re-opening (prior size: 31287.4 KB)
+0841.412 (0) The time we have been running (841.4) is approaching the resumption interval (860) - increasing resumption interval to 872
+0841.838 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 15000 files added (on-disk size: 31839.4 KB)
+0842.080 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 15100 files added (on-disk size: 31839.4 KB)
+0842.303 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 15200 files added (on-disk size: 31839.4 KB)
+0842.508 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 15300 files added (on-disk size: 31839.4 KB)
+0842.722 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 15400 files added (on-disk size: 31839.4 KB)
+0842.778 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.7 MB, 26197 files batched, 501 (15431) added so far); re-opening (prior size: 31839.4 KB)
+0852.512 (0) The time we have been running (852.5) is approaching the resumption interval (872) - increasing resumption interval to 883
+0853.006 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 15500 files added (on-disk size: 32848.6 KB)
+0853.176 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 15600 files added (on-disk size: 32848.6 KB)
+0853.341 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 15700 files added (on-disk size: 32848.6 KB)
+0853.586 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 15800 files added (on-disk size: 32848.6 KB)
+0853.767 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 15900 files added (on-disk size: 32848.6 KB)
+0853.826 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.5 MB, 26197 files batched, 501 (15932) added so far); re-opening (prior size: 32848.6 KB)
+0864.844 (0) The time we have been running (864.8) is approaching the resumption interval (883) - increasing resumption interval to 895
+0865.455 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 16000 files added (on-disk size: 33959.7 KB)
+0865.637 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 16100 files added (on-disk size: 33959.7 KB)
+0866.028 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 16200 files added (on-disk size: 33959.7 KB)
+0866.246 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 16300 files added (on-disk size: 33959.7 KB)
+0866.454 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 16400 files added (on-disk size: 33959.7 KB)
+0866.528 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.8 MB, 26197 files batched, 501 (16433) added so far); re-opening (prior size: 33959.7 KB)
+0879.536 (0) The time we have been running (879.5) is approaching the resumption interval (895) - increasing resumption interval to 910
+0880.292 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 16500 files added (on-disk size: 34893.6 KB)
+0880.586 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 16600 files added (on-disk size: 34893.6 KB)
+0880.779 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 16700 files added (on-disk size: 34893.6 KB)
+0880.962 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 16800 files added (on-disk size: 34893.6 KB)
+0881.214 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 16900 files added (on-disk size: 34893.6 KB)
+0881.350 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.9 MB, 26197 files batched, 501 (16934) added so far); re-opening (prior size: 34893.6 KB)
+0900.906 (0) The time we have been running (900.9) is approaching the resumption interval (910) - increasing resumption interval to 931
+0902.462 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 17000 files added (on-disk size: 35566.4 KB)
+0903.105 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 17100 files added (on-disk size: 35566.4 KB)
+0903.502 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 237 (17171) files added so far); re-opening (prior size: 35566.4 KB)
+0919.055 (0) The time we have been running (919) is approaching the resumption interval (931) - increasing resumption interval to 950
+0920.087 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 17200 files added (on-disk size: 35770 KB)
+0920.260 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 17300 files added (on-disk size: 35770 KB)
+0920.542 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 17400 files added (on-disk size: 35770 KB)
+0920.757 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 17500 files added (on-disk size: 35770 KB)
+0921.022 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 17600 files added (on-disk size: 35770 KB)
+0921.171 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.4 MB, 26197 files batched, 501 (17672) added so far); re-opening (prior size: 35770 KB)
+0933.287 (0) The time we have been running (933.3) is approaching the resumption interval (950) - increasing resumption interval to 964
+0933.868 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 17700 files added (on-disk size: 37028.5 KB)
+0934.091 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 17800 files added (on-disk size: 37028.5 KB)
+0934.309 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 17900 files added (on-disk size: 37028.5 KB)
+0934.512 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 18000 files added (on-disk size: 37028.5 KB)
+0934.699 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 18100 files added (on-disk size: 37028.5 KB)
+0934.881 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.2 MB, 26197 files batched, 501 (18173) added so far); re-opening (prior size: 37028.5 KB)
+0944.466 (0) The time we have been running (944.4) is approaching the resumption interval (964) - increasing resumption interval to 975
+0944.937 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 18200 files added (on-disk size: 38050.1 KB)
+0945.115 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 18300 files added (on-disk size: 38050.1 KB)
+0945.270 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 18400 files added (on-disk size: 38050.1 KB)
+0945.416 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 18500 files added (on-disk size: 38050.1 KB)
+0945.553 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 18600 files added (on-disk size: 38050.1 KB)
+0945.660 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.7 MB, 26197 files batched, 501 (18674) added so far); re-opening (prior size: 38050.1 KB)
+0955.811 (0) The time we have been running (955.8) is approaching the resumption interval (975) - increasing resumption interval to 986
+0956.255 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 18700 files added (on-disk size: 39725.1 KB)
+0956.398 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 18800 files added (on-disk size: 39725.1 KB)
+0956.530 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 18900 files added (on-disk size: 39725.1 KB)
+0956.664 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 19000 files added (on-disk size: 39725.1 KB)
+0956.825 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 19100 files added (on-disk size: 39725.1 KB)
+0956.947 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.8 MB, 26197 files batched, 501 (19175) added so far); re-opening (prior size: 39725.1 KB)
+0966.350 (0) The time we have been running (966.3) is approaching the resumption interval (986) - increasing resumption interval to 997
+0966.824 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 19200 files added (on-disk size: 41103.7 KB)
+0966.978 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 19300 files added (on-disk size: 41103.7 KB)
+0967.123 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 19400 files added (on-disk size: 41103.7 KB)
+0967.251 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 19500 files added (on-disk size: 41103.7 KB)
+0967.389 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 19600 files added (on-disk size: 41103.7 KB)
+0967.496 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.5 MB, 26197 files batched, 501 (19676) added so far); re-opening (prior size: 41103.7 KB)
+0977.266 (0) The time we have been running (977.2) is approaching the resumption interval (997) - increasing resumption interval to 1008
+0977.815 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 19700 files added (on-disk size: 41793.5 KB)
+0978.108 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 19800 files added (on-disk size: 41793.5 KB)
+0978.385 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 19900 files added (on-disk size: 41793.5 KB)
+0978.659 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 20000 files added (on-disk size: 41793.5 KB)
+0978.920 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 20100 files added (on-disk size: 41793.5 KB)
+0979.099 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.8 MB, 26197 files batched, 501 (20177) added so far); re-opening (prior size: 41793.5 KB)
+0990.752 (0) The time we have been running (990.7) is approaching the resumption interval (1008) - increasing resumption interval to 1021
+0991.172 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 20200 files added (on-disk size: 43253.3 KB)
+0991.322 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 20300 files added (on-disk size: 43253.3 KB)
+0991.469 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 20400 files added (on-disk size: 43253.3 KB)
+0991.621 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 20500 files added (on-disk size: 43253.3 KB)
+0991.749 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 20600 files added (on-disk size: 43253.3 KB)
+0991.851 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.3 MB, 26197 files batched, 501 (20678) added so far); re-opening (prior size: 43253.3 KB)
+1001.740 (0) The time we have been running (1001.7) is approaching the resumption interval (1021) - increasing resumption interval to 1032
+1002.196 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 20700 files added (on-disk size: 44062.6 KB)
+1002.347 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 20800 files added (on-disk size: 44062.6 KB)
+1002.528 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 20900 files added (on-disk size: 44062.6 KB)
+1002.688 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 21000 files added (on-disk size: 44062.6 KB)
+1002.861 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 21100 files added (on-disk size: 44062.6 KB)
+1002.991 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.3 MB, 26197 files batched, 501 (21179) added so far); re-opening (prior size: 44062.6 KB)
+1012.211 (0) The time we have been running (1012.2) is approaching the resumption interval (1032) - increasing resumption interval to 1043
+1012.601 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 21200 files added (on-disk size: 44633.9 KB)
+1012.727 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 21300 files added (on-disk size: 44633.9 KB)
+1012.853 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 21400 files added (on-disk size: 44633.9 KB)
+1012.983 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 21500 files added (on-disk size: 44633.9 KB)
+1013.098 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 21600 files added (on-disk size: 44633.9 KB)
+1013.184 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.5 MB, 26197 files batched, 501 (21680) added so far); re-opening (prior size: 44633.9 KB)
+1022.856 (0) The time we have been running (1022.8) is approaching the resumption interval (1043) - increasing resumption interval to 1053
+1023.271 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 21700 files added (on-disk size: 45236.8 KB)
+1023.381 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 21800 files added (on-disk size: 45236.8 KB)
+1023.485 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 21900 files added (on-disk size: 45236.8 KB)
+1023.615 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 22000 files added (on-disk size: 45236.8 KB)
+1023.750 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 22100 files added (on-disk size: 45236.8 KB)
+1023.867 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.6 MB, 26197 files batched, 501 (22181) added so far); re-opening (prior size: 45236.8 KB)
+1033.502 (0) The time we have been running (1033.5) is approaching the resumption interval (1053) - increasing resumption interval to 1064
+1034.026 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 22200 files added (on-disk size: 45583.3 KB)
+1034.180 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 22300 files added (on-disk size: 45583.3 KB)
+1034.384 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 22400 files added (on-disk size: 45583.3 KB)
+1034.618 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 22500 files added (on-disk size: 45583.3 KB)
+1034.774 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 22600 files added (on-disk size: 45583.3 KB)
+1034.907 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.7 MB, 26197 files batched, 501 (22682) added so far); re-opening (prior size: 45583.3 KB)
+1046.352 (0) The time we have been running (1046.3) is approaching the resumption interval (1064) - increasing resumption interval to 1077
+1046.827 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 22700 files added (on-disk size: 46946.4 KB)
+1046.976 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 22800 files added (on-disk size: 46946.4 KB)
+1047.104 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 22900 files added (on-disk size: 46946.4 KB)
+1047.234 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 23000 files added (on-disk size: 46946.4 KB)
+1047.387 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 23100 files added (on-disk size: 46946.4 KB)
+1047.501 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5 MB, 26197 files batched, 501 (23183) added so far); re-opening (prior size: 46946.4 KB)
+1060.347 (0) The time we have been running (1060.3) is approaching the resumption interval (1077) - increasing resumption interval to 1091
+1060.894 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 23200 files added (on-disk size: 48341.2 KB)
+1061.114 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 23300 files added (on-disk size: 48341.2 KB)
+1061.463 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 23400 files added (on-disk size: 48341.2 KB)
+1061.679 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 23500 files added (on-disk size: 48341.2 KB)
+1061.833 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 23600 files added (on-disk size: 48341.2 KB)
+1062.028 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.6 MB, 26197 files batched, 501 (23684) added so far); re-opening (prior size: 48341.2 KB)
+1073.306 (0) The time we have been running (1073.3) is approaching the resumption interval (1091) - increasing resumption interval to 1104
+1073.784 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 23700 files added (on-disk size: 49061.8 KB)
+1073.946 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 23800 files added (on-disk size: 49061.8 KB)
+1074.170 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 23900 files added (on-disk size: 49061.8 KB)
+1074.385 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 24000 files added (on-disk size: 49061.8 KB)
+1074.588 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 24100 files added (on-disk size: 49061.8 KB)
+1074.724 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.1 MB, 26197 files batched, 501 (24185) added so far); re-opening (prior size: 49061.8 KB)
+1085.238 (0) The time we have been running (1085.2) is approaching the resumption interval (1104) - increasing resumption interval to 1116
+1085.668 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 24200 files added (on-disk size: 49822.5 KB)
+1085.790 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 24300 files added (on-disk size: 49822.5 KB)
+1085.923 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 24400 files added (on-disk size: 49822.5 KB)
+1086.046 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 24500 files added (on-disk size: 49822.5 KB)
+1086.177 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 24600 files added (on-disk size: 49822.5 KB)
+1086.306 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.5 MB, 26197 files batched, 501 (24686) added so far); re-opening (prior size: 49822.5 KB)
+1098.269 (0) The time we have been running (1098.2) is approaching the resumption interval (1116) - increasing resumption interval to 1129
+1098.839 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 24700 files added (on-disk size: 51373 KB)
+1099.093 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 24800 files added (on-disk size: 51373 KB)
+1099.261 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 24900 files added (on-disk size: 51373 KB)
+1099.412 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 25000 files added (on-disk size: 51373 KB)
+1099.576 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 25100 files added (on-disk size: 51373 KB)
+1099.726 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.2 MB, 26197 files batched, 501 (25187) added so far); re-opening (prior size: 51373 KB)
+1111.165 (0) The time we have been running (1111.1) is approaching the resumption interval (1129) - increasing resumption interval to 1142
+1111.620 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 25200 files added (on-disk size: 51797.3 KB)
+1111.755 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 25300 files added (on-disk size: 51797.3 KB)
+1111.864 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 25400 files added (on-disk size: 51797.3 KB)
+1111.972 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 25500 files added (on-disk size: 51797.3 KB)
+1112.098 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 25600 files added (on-disk size: 51797.3 KB)
+1112.227 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.1 MB, 26197 files batched, 501 (25688) added so far); re-opening (prior size: 51797.3 KB)
+1122.282 (0) The time we have been running (1122.3) is approaching the resumption interval (1142) - increasing resumption interval to 1153
+1122.738 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 25700 files added (on-disk size: 52395.7 KB)
+1122.869 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 25800 files added (on-disk size: 52395.7 KB)
+1123.001 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 25900 files added (on-disk size: 52395.7 KB)
+1123.138 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 26000 files added (on-disk size: 52395.7 KB)
+1123.277 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip.tmp: 26100 files added (on-disk size: 52395.7 KB)
+1123.394 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.7 MB, 26197 files batched, 501 (26189) added so far); re-opening (prior size: 52395.7 KB)
+1133.895 (0) The time we have been running (1133.9) is approaching the resumption interval (1153) - increasing resumption interval to 1164
+1143.341 (0) The time we have been running (1143.3) is approaching the resumption interval (1164) - increasing resumption interval to 1174
+1147.096 (0) Created themes zip (0) - 52978.1 KB in 879 s (60.3 KB/s) (sha1: feccbd002d1ec14b78473bd24de82d2ba1d2f521, sha256: cc6a1b907b3a6399425408ed10db0c3f5fd7e73b484dce4f73b90066276f39d1)
+1147.117 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+1147.121 (0) Looking for candidates to backup in: /srv/www/kodefant.no/current/web/app/uploads
+1147.130 (0) finding files: cache: adding to list (1)
+1147.133 (0) finding files: wp-sync-db: adding to list (2)
+1147.136 (0) finding files: .gitkeep: adding to list (3)
+1147.139 (0) finding files: 2018: adding to list (4)
+1147.141 (0) finding files: backup: skipping: excluded by options (glob)
+1147.144 (0) Beginning creation of dump of uploads (split every: 400 MB)
+1147.405 (0) Total entities for the zip file: 70 directories, 167 files (0 skipped as non-modified), 5.2 MB
+1147.478 (0) Zip: backup_2018-09-20-1730_kodeFant_9e778ae840cc-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+1149.911 (0) The time we have been running (1149.9) is approaching the resumption interval (1174) - increasing resumption interval to 1180
+1150.406 (0) Created uploads zip (0) - 4165.2 KB in 3.2 s (1282.9 KB/s) (sha1: 8cf4d2f83801d82d5f62f8c4de8cf3052dee2a09, sha256: eb6ddca2e1cb15168c69f042b23a41cf6517ea19d9c1641cb6ce838671fb5b0e)
+1150.452 (0) Beginning backup of other directories found in the content directory (index: 0)
+1150.457 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+1150.461 (0) Looking for candidates to backup in: /srv/www/kodefant.no/current/web/app
+1150.469 (0) finding files: upgrade: skipping: excluded by options
+1150.472 (0) finding files: .DS_Store: adding to list (1)
+1150.476 (0) finding files: cache: skipping: excluded by options
+1150.480 (0) finding files: plugins: skipping: this is the plugins directory
+1150.486 (0) finding files: uploads: skipping: this is the uploads directory
+1150.489 (0) finding files: updraft: skipping: this is the updraft directory
+1150.494 (0) finding files: advanced-cache.php: adding to list (2)
+1150.498 (0) finding files: languages: adding to list (3)
+1150.502 (0) finding files: themes: skipping: this is the themes directory
+1150.505 (0) finding files: mu-plugins: adding to list (4)
+1150.587 (0) Total entities for the zip file: 4 directories, 23 files (0 skipped as non-modified), 2.1 MB
+1151.629 (0) The time we have been running (1151.6) is approaching the resumption interval (1180) - increasing resumption interval to 1182
+1151.724 (0) Created others zip (0) - 608.9 KB in 1.2 s (508 KB/s) (sha1: 91a6670415619e98fb76c078670730678ed46cc5, sha256: 792d5b4948ceddaa47a6d90042af9f5ba62db36d6e9155df6171b81f4f11a04f)
+1151.783 (0) Saving backup status to database (elements: 8)
+1151.798 (0) No database backup (wp) - not part of this run
+1151.814 (0) backup_2018-09-20-1730_kodeFant_9e778ae840cc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1151.819 (0) backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1151.822 (0) backup_2018-09-20-1730_kodeFant_9e778ae840cc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1151.826 (0) backup_2018-09-20-1730_kodeFant_9e778ae840cc-others.zip: others: This file has not yet been successfully uploaded: will queue
+1151.831 (0) Saving backup history. Total backup size: 92.6 MB
+1151.847 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+1151.860 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1151.867 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-97fc2a5c25fff17e6893a1806aad57d6)
+1159.263 (0) Google Drive quota usage: used=880 MB, total=15360 MB, available=14480 MB
+1159.268 (0) backup_2018-09-20-1730_kodeFant_9e778ae840cc-plugins.zip: Attempting to upload to Google Drive (into folder id: 0B777-EeiCezla1NDcnFURXJOV3c)
+1162.152 (0) The time we have been running (1162.1) is approaching the resumption interval (1182) - increasing resumption interval to 1193
+1162.158 (0) Googledrive chunked upload: 2.8 % uploaded (1048576)
+1163.883 (0) The time we have been running (1163.9) is approaching the resumption interval (1193) - increasing resumption interval to 1194
+1163.889 (0) Googledrive chunked upload: 5.5 % uploaded (2097152)
+1165.708 (0) The time we have been running (1165.7) is approaching the resumption interval (1194) - increasing resumption interval to 1196
+1165.716 (0) Googledrive chunked upload: 8.3 % uploaded (3145728)
+1167.339 (0) The time we have been running (1167.3) is approaching the resumption interval (1196) - increasing resumption interval to 1198
+1167.345 (0) Googledrive chunked upload: 11 % uploaded (4194304)
+1168.994 (0) The time we have been running (1169) is approaching the resumption interval (1198) - increasing resumption interval to 1199
+1169.001 (0) Googledrive chunked upload: 13.8 % uploaded (5242880)
+1170.961 (0) The time we have been running (1170.9) is approaching the resumption interval (1199) - increasing resumption interval to 1201
+1170.968 (0) The scheduled resumption is within 45 seconds - will reschedule
+1170.973 (0) Rescheduling resumption 1: moving to 600 seconds from now (1537466389)
+1170.984 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 1201 + 45 = 1246
+1170.987 (0) Googledrive chunked upload: 16.6 % uploaded (6291456)
+1172.646 (0) Googledrive chunked upload: 19.3 % uploaded (7340032)
+1174.274 (0) Googledrive chunked upload: 22.1 % uploaded (8388608)
+1175.873 (0) Googledrive chunked upload: 24.9 % uploaded (9437184)
+1177.415 (0) Googledrive chunked upload: 27.6 % uploaded (10485760)
+1179.086 (0) Googledrive chunked upload: 30.4 % uploaded (11534336)
+1180.715 (0) Googledrive chunked upload: 33.1 % uploaded (12582912)
+1182.406 (0) Googledrive chunked upload: 35.9 % uploaded (13631488)
+1183.927 (0) Googledrive chunked upload: 38.7 % uploaded (14680064)
+1185.469 (0) Googledrive chunked upload: 41.4 % uploaded (15728640)
+1186.954 (0) Googledrive chunked upload: 44.2 % uploaded (16777216)
+1188.464 (0) Googledrive chunked upload: 47 % uploaded (17825792)
+1189.954 (0) Googledrive chunked upload: 49.7 % uploaded (18874368)
+1191.599 (0) Googledrive chunked upload: 52.5 % uploaded (19922944)
+1193.133 (0) Googledrive chunked upload: 55.2 % uploaded (20971520)
+1194.749 (0) Googledrive chunked upload: 58 % uploaded (22020096)
+1196.248 (0) Googledrive chunked upload: 60.8 % uploaded (23068672)
+1197.786 (0) Googledrive chunked upload: 63.5 % uploaded (24117248)
+1199.352 (0) Googledrive chunked upload: 66.3 % uploaded (25165824)
+1200.917 (0) Googledrive chunked upload: 69.1 % uploaded (26214400)
+1202.524 (0) Googledrive chunked upload: 71.8 % uploaded (27262976)
+1204.110 (0) Googledrive chunked upload: 74.6 % uploaded (28311552)
+1205.868 (0) Googledrive chunked upload: 77.3 % uploaded (29360128)
+1207.572 (0) Googledrive chunked upload: 80.1 % uploaded (30408704)
+1209.302 (0) Googledrive chunked upload: 82.9 % uploaded (31457280)
+1211.422 (0) Googledrive chunked upload: 85.6 % uploaded (32505856)
+1213.837 (0) Googledrive chunked upload: 88.4 % uploaded (33554432)
+1215.321 (0) Googledrive chunked upload: 91.2 % uploaded (34603008)
+1216.880 (0) The time we have been running (1216.9) is approaching the resumption interval (1246) - increasing resumption interval to 1247
+1216.887 (0) Googledrive chunked upload: 93.9 % uploaded (35651584)
+1218.412 (0) The time we have been running (1218.4) is approaching the resumption interval (1247) - increasing resumption interval to 1249
+1218.418 (0) Googledrive chunked upload: 96.7 % uploaded (36700160)
+1219.946 (0) The time we have been running (1219.9) is approaching the resumption interval (1249) - increasing resumption interval to 1250
+1219.953 (0) Googledrive chunked upload: 99.4 % uploaded (37748736)
+1221.814 (0) The time we have been running (1221.8) is approaching the resumption interval (1250) - increasing resumption interval to 1252
+1221.824 (0) Googledrive chunked upload: 100 % uploaded (37748736)
+1221.833 (0) OK: Archive backup_2018-09-20-1730_kodeFant_9e778ae840cc-plugins.zip uploaded to Google Drive in 62.56 seconds
+1221.836 (0) Recording as successfully uploaded: backup_2018-09-20-1730_kodeFant_9e778ae840cc-plugins.zip
+1221.895 (0) Deleting local file: backup_2018-09-20-1730_kodeFant_9e778ae840cc-plugins.zip: OK
+1222.529 (0) Google Drive quota usage: used=916.2 MB, total=15360 MB, available=14443.8 MB
+1222.532 (0) backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip: Attempting to upload to Google Drive (into folder id: 0B777-EeiCezla1NDcnFURXJOV3c)
+1225.281 (0) The time we have been running (1225.3) is approaching the resumption interval (1252) - increasing resumption interval to 1256
+1225.288 (0) Googledrive chunked upload: 1.9 % uploaded (1048576)
+1226.899 (0) The time we have been running (1226.9) is approaching the resumption interval (1256) - increasing resumption interval to 1257
+1226.907 (0) Googledrive chunked upload: 3.9 % uploaded (2097152)
+1228.495 (0) The time we have been running (1228.5) is approaching the resumption interval (1257) - increasing resumption interval to 1259
+1228.503 (0) Googledrive chunked upload: 5.8 % uploaded (3145728)
+1230.046 (0) The time we have been running (1230) is approaching the resumption interval (1259) - increasing resumption interval to 1261
+1230.053 (0) Googledrive chunked upload: 7.7 % uploaded (4194304)
+1231.673 (0) The time we have been running (1231.6) is approaching the resumption interval (1261) - increasing resumption interval to 1262
+1231.680 (0) Googledrive chunked upload: 9.7 % uploaded (5242880)
+1233.288 (0) The time we have been running (1233.3) is approaching the resumption interval (1262) - increasing resumption interval to 1264
+1233.295 (0) Googledrive chunked upload: 11.6 % uploaded (6291456)
+1235.116 (0) The time we have been running (1235.1) is approaching the resumption interval (1264) - increasing resumption interval to 1266
+1235.125 (0) Googledrive chunked upload: 13.5 % uploaded (7340032)
+1236.826 (0) The time we have been running (1236.8) is approaching the resumption interval (1266) - increasing resumption interval to 1267
+1236.833 (0) Googledrive chunked upload: 15.5 % uploaded (8388608)
+1238.486 (0) The time we have been running (1238.5) is approaching the resumption interval (1267) - increasing resumption interval to 1269
+1238.492 (0) Googledrive chunked upload: 17.4 % uploaded (9437184)
+1240.112 (0) The time we have been running (1240.1) is approaching the resumption interval (1269) - increasing resumption interval to 1271
+1240.122 (0) Googledrive chunked upload: 19.3 % uploaded (10485760)
+1241.930 (0) The time we have been running (1241.9) is approaching the resumption interval (1271) - increasing resumption interval to 1272
+1241.936 (0) Googledrive chunked upload: 21.3 % uploaded (11534336)
+1243.626 (0) The time we have been running (1243.6) is approaching the resumption interval (1272) - increasing resumption interval to 1274
+1243.633 (0) Googledrive chunked upload: 23.2 % uploaded (12582912)
+1245.451 (0) The time we have been running (1245.4) is approaching the resumption interval (1274) - increasing resumption interval to 1276
+1245.457 (0) Googledrive chunked upload: 25.1 % uploaded (13631488)
+1247.194 (0) The time we have been running (1247.2) is approaching the resumption interval (1276) - increasing resumption interval to 1278
+1247.205 (0) Googledrive chunked upload: 27.1 % uploaded (14680064)
+1248.918 (0) The time we have been running (1248.9) is approaching the resumption interval (1278) - increasing resumption interval to 1279
+1248.926 (0) Googledrive chunked upload: 29 % uploaded (15728640)
+1250.613 (0) The time we have been running (1250.6) is approaching the resumption interval (1279) - increasing resumption interval to 1281
+1250.623 (0) Googledrive chunked upload: 30.9 % uploaded (16777216)
+1252.325 (0) The time we have been running (1252.3) is approaching the resumption interval (1281) - increasing resumption interval to 1283
+1252.332 (0) Googledrive chunked upload: 32.9 % uploaded (17825792)
+1254.006 (0) The time we have been running (1254) is approaching the resumption interval (1283) - increasing resumption interval to 1284
+1254.013 (0) Googledrive chunked upload: 34.8 % uploaded (18874368)
+1255.859 (0) The time we have been running (1255.8) is approaching the resumption interval (1284) - increasing resumption interval to 1286
+1255.867 (0) Googledrive chunked upload: 36.7 % uploaded (19922944)
+1257.592 (0) The time we have been running (1257.6) is approaching the resumption interval (1286) - increasing resumption interval to 1288
+1257.598 (0) Googledrive chunked upload: 38.7 % uploaded (20971520)
+1259.241 (0) The time we have been running (1259.2) is approaching the resumption interval (1288) - increasing resumption interval to 1290
+1259.248 (0) Googledrive chunked upload: 40.6 % uploaded (22020096)
+1260.964 (0) The time we have been running (1260.9) is approaching the resumption interval (1290) - increasing resumption interval to 1291
+1260.974 (0) Googledrive chunked upload: 42.5 % uploaded (23068672)
+1262.689 (0) The time we have been running (1262.7) is approaching the resumption interval (1291) - increasing resumption interval to 1293
+1262.696 (0) Googledrive chunked upload: 44.5 % uploaded (24117248)
+1264.331 (0) The time we have been running (1264.3) is approaching the resumption interval (1293) - increasing resumption interval to 1295
+1264.337 (0) Googledrive chunked upload: 46.4 % uploaded (25165824)
+1266.003 (0) The time we have been running (1266) is approaching the resumption interval (1295) - increasing resumption interval to 1296
+1266.010 (0) Googledrive chunked upload: 48.3 % uploaded (26214400)
+1267.687 (0) The time we have been running (1267.7) is approaching the resumption interval (1296) - increasing resumption interval to 1298
+1267.695 (0) Googledrive chunked upload: 50.3 % uploaded (27262976)
+1269.399 (0) The time we have been running (1269.4) is approaching the resumption interval (1298) - increasing resumption interval to 1300
+1269.406 (0) Googledrive chunked upload: 52.2 % uploaded (28311552)
+1271.175 (0) The time we have been running (1271.1) is approaching the resumption interval (1300) - increasing resumption interval to 1302
+1271.182 (0) Googledrive chunked upload: 54.1 % uploaded (29360128)
+1273.078 (0) The time we have been running (1273.1) is approaching the resumption interval (1302) - increasing resumption interval to 1304
+1273.089 (0) Googledrive chunked upload: 56.1 % uploaded (30408704)
+1274.846 (0) The time we have been running (1274.8) is approaching the resumption interval (1304) - increasing resumption interval to 1305
+1274.854 (0) Googledrive chunked upload: 58 % uploaded (31457280)
+1276.625 (0) The time we have been running (1276.6) is approaching the resumption interval (1305) - increasing resumption interval to 1307
+1276.634 (0) Googledrive chunked upload: 59.9 % uploaded (32505856)
+1278.596 (0) The time we have been running (1278.6) is approaching the resumption interval (1307) - increasing resumption interval to 1309
+1278.604 (0) Googledrive chunked upload: 61.9 % uploaded (33554432)
+1280.174 (0) The time we have been running (1280.1) is approaching the resumption interval (1309) - increasing resumption interval to 1311
+1280.181 (0) Googledrive chunked upload: 63.8 % uploaded (34603008)
+1282.115 (0) The time we have been running (1282.1) is approaching the resumption interval (1311) - increasing resumption interval to 1313
+1282.121 (0) Googledrive chunked upload: 65.7 % uploaded (35651584)
+1283.915 (0) The time we have been running (1283.9) is approaching the resumption interval (1313) - increasing resumption interval to 1314
+1283.923 (0) Googledrive chunked upload: 67.7 % uploaded (36700160)
+1285.859 (0) The time we have been running (1285.8) is approaching the resumption interval (1314) - increasing resumption interval to 1316
+1285.867 (0) Googledrive chunked upload: 69.6 % uploaded (37748736)
+1287.545 (0) The time we have been running (1287.5) is approaching the resumption interval (1316) - increasing resumption interval to 1318
+1287.552 (0) Googledrive chunked upload: 71.5 % uploaded (38797312)
+1296.560 (0) The time we have been running (1296.5) is approaching the resumption interval (1318) - increasing resumption interval to 1327
+1296.566 (0) Googledrive chunked upload: 73.4 % uploaded (39845888)
+1298.220 (0) The time we have been running (1298.2) is approaching the resumption interval (1327) - increasing resumption interval to 1329
+1298.227 (0) Googledrive chunked upload: 75.4 % uploaded (40894464)
+1299.806 (0) The time we have been running (1299.8) is approaching the resumption interval (1329) - increasing resumption interval to 1330
+1299.817 (0) Googledrive chunked upload: 77.3 % uploaded (41943040)
+1301.368 (0) The time we have been running (1301.3) is approaching the resumption interval (1330) - increasing resumption interval to 1332
+1301.376 (0) Googledrive chunked upload: 79.2 % uploaded (42991616)
+1302.851 (0) The time we have been running (1302.8) is approaching the resumption interval (1332) - increasing resumption interval to 1333
+1302.859 (0) Googledrive chunked upload: 81.2 % uploaded (44040192)
+1304.707 (0) The time we have been running (1304.7) is approaching the resumption interval (1333) - increasing resumption interval to 1335
+1304.717 (0) Googledrive chunked upload: 83.1 % uploaded (45088768)
+1306.768 (0) The time we have been running (1306.7) is approaching the resumption interval (1335) - increasing resumption interval to 1337
+1306.776 (0) Googledrive chunked upload: 85 % uploaded (46137344)
+1308.486 (0) The time we have been running (1308.5) is approaching the resumption interval (1337) - increasing resumption interval to 1339
+1308.494 (0) Googledrive chunked upload: 87 % uploaded (47185920)
+1310.449 (0) The time we have been running (1310.4) is approaching the resumption interval (1339) - increasing resumption interval to 1341
+1310.457 (0) Googledrive chunked upload: 88.9 % uploaded (48234496)
+1312.600 (0) The time we have been running (1312.6) is approaching the resumption interval (1341) - increasing resumption interval to 1343
+1312.610 (0) Googledrive chunked upload: 90.8 % uploaded (49283072)
+1314.432 (0) The time we have been running (1314.4) is approaching the resumption interval (1343) - increasing resumption interval to 1345
+1314.443 (0) Googledrive chunked upload: 92.8 % uploaded (50331648)
+1316.031 (0) The time we have been running (1316) is approaching the resumption interval (1345) - increasing resumption interval to 1347
+1316.039 (0) Googledrive chunked upload: 94.7 % uploaded (51380224)
+1318.302 (0) The time we have been running (1318.3) is approaching the resumption interval (1347) - increasing resumption interval to 1349
+1318.311 (0) Googledrive chunked upload: 96.6 % uploaded (52428800)
+1320.476 (0) The time we have been running (1320.4) is approaching the resumption interval (1349) - increasing resumption interval to 1351
+1320.483 (0) Googledrive chunked upload: 98.6 % uploaded (53477376)
+1323.185 (0) The time we have been running (1323.2) is approaching the resumption interval (1351) - increasing resumption interval to 1354
+1323.194 (0) Googledrive chunked upload: 100 % uploaded (53477376)
+1323.206 (0) OK: Archive backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip uploaded to Google Drive in 100.67 seconds
+1323.209 (0) Recording as successfully uploaded: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip
+1323.232 (0) Deleting local file: backup_2018-09-20-1730_kodeFant_9e778ae840cc-themes.zip: OK
+1324.095 (0) Google Drive quota usage: used=967.9 MB, total=15360 MB, available=14392.1 MB
+1324.101 (0) backup_2018-09-20-1730_kodeFant_9e778ae840cc-uploads.zip: Attempting to upload to Google Drive (into folder id: 0B777-EeiCezla1NDcnFURXJOV3c)
+1326.785 (0) The time we have been running (1326.8) is approaching the resumption interval (1354) - increasing resumption interval to 1357
+1326.792 (0) Googledrive chunked upload: 24.6 % uploaded (1048576)
+1328.959 (0) The time we have been running (1328.9) is approaching the resumption interval (1357) - increasing resumption interval to 1359
+1328.965 (0) Googledrive chunked upload: 49.2 % uploaded (2097152)
+1330.937 (0) The time we have been running (1330.9) is approaching the resumption interval (1359) - increasing resumption interval to 1361
+1330.943 (0) Googledrive chunked upload: 73.8 % uploaded (3145728)
+1332.573 (0) The time we have been running (1332.5) is approaching the resumption interval (1361) - increasing resumption interval to 1363
+1332.581 (0) Googledrive chunked upload: 98.3 % uploaded (4194304)
+1334.212 (0) The time we have been running (1334.2) is approaching the resumption interval (1363) - increasing resumption interval to 1365
+1334.218 (0) Googledrive chunked upload: 100 % uploaded (4194304)
+1334.227 (0) OK: Archive backup_2018-09-20-1730_kodeFant_9e778ae840cc-uploads.zip uploaded to Google Drive in 10.12 seconds
+1334.229 (0) Recording as successfully uploaded: backup_2018-09-20-1730_kodeFant_9e778ae840cc-uploads.zip
+1334.249 (0) Deleting local file: backup_2018-09-20-1730_kodeFant_9e778ae840cc-uploads.zip: OK
+1335.154 (0) Google Drive quota usage: used=972 MB, total=15360 MB, available=14388 MB
+1335.159 (0) backup_2018-09-20-1730_kodeFant_9e778ae840cc-others.zip: Attempting to upload to Google Drive (into folder id: 0B777-EeiCezla1NDcnFURXJOV3c)
+1338.129 (0) The time we have been running (1338.1) is approaching the resumption interval (1365) - increasing resumption interval to 1369
+1338.136 (0) Googledrive chunked upload: 100 % uploaded
+1338.147 (0) OK: Archive backup_2018-09-20-1730_kodeFant_9e778ae840cc-others.zip uploaded to Google Drive in 2.98 seconds
+1338.150 (0) Recording as successfully uploaded: backup_2018-09-20-1730_kodeFant_9e778ae840cc-others.zip
+1338.160 (0) Deleting local file: backup_2018-09-20-1730_kodeFant_9e778ae840cc-others.zip: OK
+1338.166 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1338.171 (0) Number of backup sets in history: 6; groups (db): 1
+1338.174 (0) Examining (for databases) backup set with group_id=0, nonce=d0a4c802f3d6, datestamp=1537465524 (Sep 20 2018 17:45:24)
+1338.178 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+1338.181 (0) Examining (for databases) backup set with group_id=0, nonce=9e778ae840cc, datestamp=1537464618 (Sep 20 2018 17:30:18)
+1338.181 (0) Examining (for databases) backup set with group_id=0, nonce=efbe4e0cd606, datestamp=1537463040 (Sep 20 2018 17:04:00)
+1338.181 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+1338.182 (0) Examining (for databases) backup set with group_id=0, nonce=ba7e0e49a1d4, datestamp=1537439280 (Sep 20 2018 10:28:00)
+1338.182 (0) Examining (for databases) backup set with group_id=0, nonce=df36136d542c, datestamp=1537265238 (Sep 18 2018 10:07:18)
+1338.182 (0) Examining (for databases) backup set with group_id=0, nonce=3e5e2f3cd877, datestamp=1537134420 (Sep 16 2018 21:47:00)
+1338.182 (0) Number of backup sets in history: 6; groups (files): 1
+1338.185 (0) Examining (for files) backup set with nonce=d0a4c802f3d6, datestamp=1537465524 (Sep 20 2018 17:45:24)
+1338.186 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+1338.190 (0) Examining (for files) backup set with nonce=9e778ae840cc, datestamp=1537464618 (Sep 20 2018 17:30:18)
+1338.190 (0) This backup set is the backup set just made, so will not be deleted.
+1338.193 (0) This backup set is the backup set just made, so will not be deleted.
+1338.194 (0) This backup set is the backup set just made, so will not be deleted.
+1338.194 (0) This backup set is the backup set just made, so will not be deleted.
+1338.194 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+1338.197 (0) Examining (for files) backup set with nonce=efbe4e0cd606, datestamp=1537463040 (Sep 20 2018 17:04:00)
+1338.197 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+1338.199 (0) Examining (for files) backup set with nonce=ba7e0e49a1d4, datestamp=1537439280 (Sep 20 2018 10:28:00)
+1338.199 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+1338.202 (0) Examining (for files) backup set with nonce=df36136d542c, datestamp=1537265238 (Sep 18 2018 10:07:18)
+1338.202 (0) plugins: over retain limit (2); will delete this file entity
+1338.203 (0) Delete file: backup_2018-09-18-1007_kodeFant_df36136d542c-plugins.zip, service=googledrive
+1339.954 (0) backup_2018-09-18-1007_kodeFant_df36136d542c-plugins.zip: Deletion successful
+1339.962 (0) The time we have been running (1339.9) is approaching the resumption interval (1369) - increasing resumption interval to 1370
+1339.967 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+1339.969 (0) Examining (for files) backup set with nonce=3e5e2f3cd877, datestamp=1537134420 (Sep 16 2018 21:47:00)
+1339.970 (0) themes: over retain limit (2); will delete this file entity
+1339.970 (0) uploads: over retain limit (2); will delete this file entity
+1339.970 (0) others: over retain limit (2); will delete this file entity
+1339.970 (0) Delete file: backup_2018-09-16-2147_Lars_L_Ulvestad_Ganso_3e5e2f3cd877-themes.zip, service=googledrive
+1339.974 (0) Delete file: backup_2018-09-16-2147_Lars_L_Ulvestad_Ganso_3e5e2f3cd877-uploads.zip, service=googledrive
+1339.977 (0) Delete file: backup_2018-09-16-2147_Lars_L_Ulvestad_Ganso_3e5e2f3cd877-others.zip, service=googledrive
+1341.877 (0) backup_2018-09-16-2147_Lars_L_Ulvestad_Ganso_3e5e2f3cd877-others.zip: Deletion successful
+1343.154 (0) backup_2018-09-16-2147_Lars_L_Ulvestad_Ganso_3e5e2f3cd877-uploads.zip: Deletion successful
+1344.113 (0) backup_2018-09-16-2147_Lars_L_Ulvestad_Ganso_3e5e2f3cd877-themes.zip: Deletion successful
+1344.127 (0) The time we have been running (1344.1) is approaching the resumption interval (1370) - increasing resumption interval to 1375
+1344.135 (0) This backup set is now empty; will remove from history
+1344.140 (0) Corresponding log file (log.3e5e2f3cd877.txt) not found - must have already been deleted
+1344.143 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+1344.157 (0) Resume backup (9e778ae840cc, 0): finish run
+1344.163 (0) Decremented the semaphore (f) by 1
+1344.173 (0) Semaphore (f) unlocked
+1344.177 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+1344.201 (0) Fetching RSS news feed
+1344.298 (0) Fetched RSS news feed; result is a: SimplePie
+1344.352 (0) Sending email ('Files only (database was not part of this particular schedule) (Full backup)') report (attachments: 0, size: 0 KB) to: lars....
+1344.384 (0) PHP event: code E_NOTICE: Undefined index: SERVER_NAME (line 330, wp-includes/pluggable.php)
+1344.400 (0) The backup apparently succeeded and is now complete

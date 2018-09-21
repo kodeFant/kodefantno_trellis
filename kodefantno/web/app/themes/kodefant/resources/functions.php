@@ -180,46 +180,9 @@ function custom_scripts()
 // Hook into the 'wp_enqueue_scripts' action
 add_action('wp_enqueue_scripts', 'custom_scripts');
 
-add_action('init', 'replace_jquery_src');
-
 /**
  * Modify loaded scripts
  */
-function replace_jquery_src()
-{
-    if (! is_admin()) {
-
-        // Remove the default jQuery
-        wp_deregister_script('jquery');
-
-        // Register our own under 'jquery' and enqueue it
-        wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js', false, '1.11.3');
-        wp_enqueue_script('jquery');
-    }
-}
-
-add_filter('script_loader_tag', 'add_async_to_jquery', 10, 3);
-
-/**
- * Filter script tag output
- *
- * @param string $tag    HTML output
- * @param string $handle registered name
- * @param string $src    path to JS file
- *
- * @return string
- */
-function add_async_to_jquery($tag, $handle, $src)
-{
-
-    // Check for our registered handle and add async
-    if ('jquery' === $handle) {
-        return str_replace(' src=', ' async src=', $tag);
-    }
-
-    // Allow all other tags to pass
-    return $tag;
-}
 
 function posts_ingress()
 {

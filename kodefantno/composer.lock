@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a3774573c447bfc4673ea41669b782b",
+    "content-hash": "c71457d7e66acacbb758fc6f63d3c32d",
     "packages": [
         {
             "name": "composer/installers",
@@ -642,6 +642,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/anti-spam/"
+        },
+        {
+            "name": "wpackagist-plugin/mailgun",
+            "version": "1.5.14",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mailgun/",
+                "reference": "tags/1.5.14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mailgun.1.5.14.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mailgun/"
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
