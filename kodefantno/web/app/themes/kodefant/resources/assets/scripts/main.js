@@ -1,5 +1,6 @@
 // import external dependencies
 import 'jquery';
+import loadcss from 'loadcss';
 
 // Import everything from autoload
 import "./autoload/**/*"
@@ -35,3 +36,7 @@ window.WebFontConfig = {
   var s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(wf, s);
 })();
+
+loadcss('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', links => {
+  links.forEach(link => console.log(link.href));
+});
