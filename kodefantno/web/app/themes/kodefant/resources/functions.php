@@ -166,9 +166,6 @@ function kodeFant_comment($comment, $args, $depth)
         endif;
 }
 
-// Hook into the 'wp_enqueue_scripts' action
-add_action('wp_enqueue_scripts', 'custom_scripts');
-
 /**
  * Modify loaded scripts
  */
