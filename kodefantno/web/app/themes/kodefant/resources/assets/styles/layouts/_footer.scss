@@ -1,0 +1,87 @@
+footer.content-info {
+  background-color: $background-nav;
+  color: $dark-gray;
+  text-align: center;
+  padding-bottom: 2.3rem;
+  padding-top: 2.3rem;
+  bottom: 0;
+
+  /*   @include breakpoint(phablet) {
+    padding: 1rem $tablet-margin;
+    text-align: left;
+  } */
+
+  @include breakpoint(phablet) {
+    padding: 0 $desktop-margin;
+    height: $navbar-height;
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+    }
+  }
+
+  section {
+    margin: 0.5rem;
+  }
+
+  a {
+    color: $dark-orange;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  i {
+    font-size: 1.2rem;
+
+    @include breakpoint(phablet) {
+      margin-right: 0.2rem;
+    }
+
+    &.fa-linkedin:hover {
+      color: #0077b5;
+    }
+
+    &.fa-github:hover {
+      color: #fff;
+    }
+
+    &.fa-twitter:hover {
+      color: #1da1f2;
+    }
+
+    &.fa-facebook:hover {
+      color: #3b5998;
+    }
+  }
+
+  .wpml-ls-item a {
+    color: $gray;
+  }
+
+  .wpml-ls-current-language a {
+    color: $dark-orange;
+  }
+
+  .wpml-ls-item a:hover {
+    text-decoration: none;
+    color: $dark-orange;
+  }
+
+  .wpml-ls-item-legacy-list-horizontal {
+    display: inline-block;
+    margin: 0 0.5rem;
+    margin-left: 0;
+
+    @include breakpoint(tablet) {
+      margin-left: 1rem;
+      text-transform: uppercase;
+    }
+  }
+}
