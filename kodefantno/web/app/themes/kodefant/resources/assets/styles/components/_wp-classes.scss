@@ -99,10 +99,6 @@ form.search-form input[type=search] {
   border-radius: 1rem 0 0 1rem;
   font-family: $header-font;
   -webkit-appearance: none;
-
-  @include breakpoint(tablet) {
-    width: 80%;
-  }
 }
 
 /* Style the submit button */
@@ -120,10 +116,6 @@ form.search-form {
     border-left: none;
     border-radius: 0 1rem 1rem 0;
     cursor: pointer;
-
-    @include breakpoint(tablet) {
-      width: 20%;
-    }
   }
 }
 
