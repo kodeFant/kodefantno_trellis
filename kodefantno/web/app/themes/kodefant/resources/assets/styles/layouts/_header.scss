@@ -17,14 +17,18 @@
   align-items: flex-start;
   grid-area: custom;
   width: 100vw;
-  height: 100vh;
-  height: calc(100vh - #{$navbar-height} * 2);
   background: $white no-repeat right bottom;
   background-image: url(../images/trampsparent-top.png);
   background-size: contain;
+  overflow: scroll;
 
   @include breakpoint(mobileonly) {
     background-size: auto contain;
+  }
+
+  @include breakpoint(phablet) {
+    height: 100vh;
+    height: calc(100vh - #{$navbar-height} * 2);
   }
 
   @include breakpoint(tablet) {

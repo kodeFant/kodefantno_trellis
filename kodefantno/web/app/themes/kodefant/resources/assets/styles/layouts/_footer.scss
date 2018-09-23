@@ -3,8 +3,7 @@ footer.content-info {
   color: $dark-gray;
   text-align: center;
   padding-bottom: 2.3rem;
-  padding-top: 2.3rem;
-  bottom: 0;
+  padding-top: 1rem;
 
   /*   @include breakpoint(phablet) {
     padding: 1rem $tablet-margin;
@@ -38,9 +37,15 @@ footer.content-info {
   }
 
   i {
-    font-size: 1.2rem;
+    font-size: 2rem;
+    margin-right: 0.7rem;
+
+    @include breakpoint(mobileonly) {
+      margin-bottom: 1rem;
+    }
 
     @include breakpoint(phablet) {
+      font-size: 1.2rem;
       margin-right: 0.2rem;
     }
 

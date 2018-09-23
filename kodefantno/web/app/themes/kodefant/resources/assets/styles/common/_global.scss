@@ -89,6 +89,7 @@ header {
   display: flex;
   justify-content: flex-start;
   margin: 0 1rem;
+  min-height: calc(100vh - #{$navbar-height} * 2);
 
   @include breakpoint(tablet) {
     margin: 0 $desktop-margin;
