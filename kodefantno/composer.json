@@ -85,7 +85,8 @@
     "kodeFant/updraftplus": "2.15.2",
     "wpackagist-plugin/mailgun": "^1.5",
     "wpackagist-plugin/autoptimize": "^2.3",
-    "wpackagist-plugin/google-analytics-for-wordpress": "^7.2"
+    "wpackagist-plugin/google-analytics-for-wordpress": "^7.2",
+    "wpackagist-plugin/jetpack": "^6.5"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
