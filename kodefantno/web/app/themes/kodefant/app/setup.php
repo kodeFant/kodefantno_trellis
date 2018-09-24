@@ -131,3 +131,12 @@ add_action('after_setup_theme', function () {
         return "<?= " . __NAMESPACE__ . "\\asset_path({$asset}); ?>";
     });
 });
+
+function disable_authors_publish_cap()
+{
+    // Get author role object
+    $author = get_role('author');
+    // Remove the post publishing capability
+    $author->remove_cap('publish_posts');
+}
+add_action('init', 'disable_authors_publish_cap');
