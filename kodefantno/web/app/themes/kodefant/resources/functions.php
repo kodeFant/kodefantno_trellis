@@ -178,3 +178,12 @@ function posts_ingress()
 define('ICL_DONT_LOAD_NAVIGATION_CSS', true);
 define('ICL_DONT_LOAD_LANGUAGE_SELECTOR_CSS', true);
 define('ICL_DONT_LOAD_LANGUAGES_JS', true);
+
+function disable_authors_publish_cap()
+{
+    // Get author role object
+    $author = get_role('author');
+    // Remove the post publishing capability
+    $author->remove_cap('publish_posts');
+}
+add_action('init', 'disable_authors_publish_cap');
