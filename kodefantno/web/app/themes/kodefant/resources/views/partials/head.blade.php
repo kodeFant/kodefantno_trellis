@@ -22,4 +22,5 @@
   <meta name="msapplication-TileImage" content="@asset('images/favicon.ico/ms-icon-144x144.png')">
   <meta name="theme-color" content="#ffffff">
   @php wp_head() @endphp
+  @php the_field('header_script') @endphp
 </head>
