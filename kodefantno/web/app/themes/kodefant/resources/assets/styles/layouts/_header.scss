@@ -20,7 +20,7 @@
   background: $white no-repeat right bottom;
   background-image: url(../images/trampsparent-top.png);
   background-size: contain;
-  overflow: scroll;
+  overflow: hidden;
 
   @include breakpoint(mobileonly) {
     background-size: auto contain;
