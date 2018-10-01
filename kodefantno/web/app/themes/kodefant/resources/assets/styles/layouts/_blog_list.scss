@@ -39,8 +39,11 @@
 
   img {
     width: 100%;
-    max-width: 40vw;
     object-fit: cover;
+
+    @include breakpoint(laptop) {
+      max-width: 40vw;
+    }
   }
 
   article {
