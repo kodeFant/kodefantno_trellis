@@ -69,10 +69,7 @@
     display: block;
 
     @include breakpoint(tablet) {
-      /* autoprefixer: off */
       display: grid;
-
-      /* autoprefixer: on */
       grid-template-columns: minmax(30rem, 40rem) minmax(10rem, auto);
       grid-template-areas: "post_header post_header" "post_content ." "post_sidebar .";
       grid-gap: 1rem;

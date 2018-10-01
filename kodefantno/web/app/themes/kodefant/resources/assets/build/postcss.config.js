@@ -8,7 +8,7 @@ module.exports = ({ file, options }) => {
   return {
     parser: options.enabled.optimize ? 'postcss-safe-parser' : undefined,
     plugins: {
-      autoprefixer: { grid: true },
+      autoprefixer: true,
       cssnano: options.enabled.optimize ? cssnanoConfig : false,
     },
   };
