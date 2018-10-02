@@ -21,3 +21,6 @@ vendor/*
 
 # Database Backup
 database_backup/*
+
+# Updraft Plus Backups
+updraft/*
