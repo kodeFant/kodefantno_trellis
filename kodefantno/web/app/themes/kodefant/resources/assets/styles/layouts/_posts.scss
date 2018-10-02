@@ -70,26 +70,31 @@
 
     @include breakpoint(tablet) {
       display: grid;
-      grid-template-columns: minmax(30rem, 40rem) minmax(10rem, auto);
-      grid-template-areas: "post_header post_header" "post_content ." "post_sidebar .";
+      grid-template-columns: minmax(30rem, auto) minmax(10rem, 20rem);
+      grid-template-areas:
+        "post_header post_header"
+        "post_content ."
+        "post_sidebar .";
       grid-gap: 1rem;
 
       /* max-width: 40rem; */
 
       header {
+        display: block;
         grid-area: post_header;
         max-width: 40rem;
       }
 
-      article.post {
-        div.entry-content {
-          grid-area: post_content;
-        }
+      main {
+        display: block;
+        grid-area: post_content;
+      }
+
+      aside {
+        grid-area: post_sidebar;
       }
 
       aside.sidebar {
-        grid-area: post_sidebar;
-
         .sidebar-content {
           background-color: rgba($gray, 0.4);
           max-width: 20rem;
@@ -102,6 +107,7 @@
     }
 
     @include breakpoint(laptop) {
+      grid-template-columns: 1fr 1fr;
       grid-template-areas: "post_header post_header" "post_content post_sidebar";
       grid-gap: 1rem;
     }
