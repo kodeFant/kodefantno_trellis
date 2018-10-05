@@ -1,0 +1,224 @@
+0000.005 (0) Opened log file at time: Fri, 05 Oct 2018 08:15:11 +0000 on https://kodefantno.test/wp
+0000.008 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.15.2.1 WP: 4.9.8 PHP: 7.2.9-1+ubuntu16.04.1+deb.sury.org+1 (cli, Linux kodefantno 4.4.0-116-generic #140-Ubuntu SMP Mon Feb 12 21:23:04 UTC 2018 x86_64) MySQL: 5.5.5 WPLANG: nb_NO Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 75.8M | 80.5M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0000.011 (0) Free space on disk containing Updraft's temporary directory: 60070.6 MB
+0000.027 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.029 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.035 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1538477104, seconds_ago=250207)
+0000.042 (0) Set semaphore last lock (fd) time to 2018-10-05 08:15:11
+0000.044 (0) Semaphore lock (fd) complete
+0000.050 (0) Backup run: resumption=0, nonce=a5a0753cbe6e, begun at=1538727311 (0s ago), job type=backup
+0000.054 (0) Scheduling a resumption (1) after 300 seconds (1538727611) in case this run gets aborted
+0000.070 (0) Checking if we have a zip executable available
+0000.075 (0) Creation of backups of directories: beginning
+0000.085 (0) No backup of plugins: excluded by user's options
+0000.088 (0) No backup of themes: excluded by user's options
+0000.090 (0) No backup of uploads: excluded by user's options
+0000.092 (0) No backup of others: excluded by user's options
+0000.099 (0) Saving backup status to database (elements: 0)
+0000.105 (0) Beginning creation of database dump (WordPress DB)
+0000.111 (0) Testing: /usr/bin/mysqldump
+0000.185 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1196 bytes total)
+0000.189 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.219 (0) Table wp_options: Total expected rows (approximate): 483
+0000.264 (0) Table wp_options: Total rows added: 489 in 0.04 seconds
+0000.279 (0) Table wp_options: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_options.table.gz - 201.1 KB)
+0000.296 (0) Table wp_users: Total expected rows (approximate): 2
+0000.301 (0) Table wp_users: Total rows added: 2 in 0.00 seconds
+0000.305 (0) Table wp_users: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_users.table.gz - 0.7 KB)
+0000.317 (0) Table wp_usermeta: Total expected rows (approximate): 74
+0000.320 (0) Table wp_usermeta: Total rows added: 75 in 0.00 seconds
+0000.324 (0) Table wp_usermeta: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_usermeta.table.gz - 3.2 KB)
+0000.335 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0000.339 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0000.342 (0) Table wp_commentmeta: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0000.352 (0) Table wp_comments: Total expected rows (approximate): 0
+0000.355 (0) Table wp_comments: Total rows added: 0 in 0.00 seconds
+0000.359 (0) Table wp_comments: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_comments.table.gz - 0.5 KB)
+0000.369 (0) Table wp_links: Total expected rows (approximate): 0
+0000.373 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0000.376 (0) Table wp_links: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_links.table.gz - 0.4 KB)
+0000.386 (0) Table wp_postmeta: Total expected rows (approximate): 2371
+0000.408 (0) Table wp_postmeta: Total rows added: 2370 in 0.02 seconds
+0000.413 (0) Table wp_postmeta: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_postmeta.table.gz - 25.3 KB)
+0000.423 (0) Table wp_posts: Total expected rows (approximate): 225
+0000.532 (0) Table wp_posts: Total rows added: 650 in 0.11 seconds
+0000.541 (0) Table wp_posts: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_posts.table.gz - 127.2 KB)
+0000.550 (0) Table wp_term_relationships: Total expected rows (approximate): 50
+0000.554 (0) Table wp_term_relationships: Total rows added: 50 in 0.00 seconds
+0000.559 (0) Table wp_term_relationships: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0000.569 (0) Table wp_term_taxonomy: Total expected rows (approximate): 32
+0000.574 (0) Table wp_term_taxonomy: Total rows added: 32 in 0.00 seconds
+0000.578 (0) Table wp_term_taxonomy: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_term_taxonomy.table.gz - 0.6 KB)
+0000.594 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0000.599 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0000.603 (0) Table wp_termmeta: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_termmeta.table.gz - 0.4 KB)
+0000.614 (0) Table wp_terms: Total expected rows (approximate): 32
+0000.618 (0) Table wp_terms: Total rows added: 32 in 0.00 seconds
+0000.622 (0) Table wp_terms: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_terms.table.gz - 0.8 KB)
+0000.635 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 52
+0000.639 (0) Table wp_yoast_seo_links: Total rows added: 52 in 0.00 seconds
+0000.643 (0) Table wp_yoast_seo_links: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_yoast_seo_links.table.gz - 1.3 KB)
+0000.653 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 53
+0000.656 (0) Table wp_yoast_seo_meta: Total rows added: 53 in 0.00 seconds
+0000.661 (0) Table wp_yoast_seo_meta: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_yoast_seo_meta.table.gz - 0.5 KB)
+0000.675 (0) Table wp_icl_content_status: Total expected rows (approximate): 0
+0000.680 (0) Table wp_icl_content_status: Total rows added: 0 in 0.00 seconds
+0000.684 (0) Table wp_icl_content_status: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_content_status.table.gz - 0.3 KB)
+0000.696 (0) Table wp_icl_core_status: Total expected rows (approximate): 0
+0000.700 (0) Table wp_icl_core_status: Total rows added: 0 in 0.00 seconds
+0000.704 (0) Table wp_icl_core_status: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_core_status.table.gz - 0.3 KB)
+0000.715 (0) Table wp_icl_flags: Total expected rows (approximate): 63
+0000.719 (0) Table wp_icl_flags: Total rows added: 63 in 0.00 seconds
+0000.723 (0) Table wp_icl_flags: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_flags.table.gz - 0.9 KB)
+0000.735 (0) Table wp_icl_languages: Total expected rows (approximate): 63
+0000.742 (0) Table wp_icl_languages: Total rows added: 63 in 0.00 seconds
+0000.747 (0) Table wp_icl_languages: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_languages.table.gz - 1.6 KB)
+0000.764 (0) Table wp_icl_languages_translations: Total expected rows (approximate): 3969
+0000.790 (0) Table wp_icl_languages_translations: Total rows added: 3969 in 0.02 seconds
+0000.796 (0) Table wp_icl_languages_translations: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_languages_translations.table.gz - 33 KB)
+0000.805 (0) Table wp_icl_locale_map: Total expected rows (approximate): 2
+0000.809 (0) Table wp_icl_locale_map: Total rows added: 2 in 0.00 seconds
+0000.812 (0) Table wp_icl_locale_map: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_locale_map.table.gz - 0.3 KB)
+0000.823 (0) Table wp_icl_message_status: Total expected rows (approximate): 0
+0000.827 (0) Table wp_icl_message_status: Total rows added: 0 in 0.00 seconds
+0000.830 (0) Table wp_icl_message_status: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_message_status.table.gz - 0.4 KB)
+0000.841 (0) Table wp_icl_mo_files_domains: Total expected rows (approximate): 0
+0000.844 (0) Table wp_icl_mo_files_domains: Total rows added: 0 in 0.00 seconds
+0000.847 (0) Table wp_icl_mo_files_domains: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_mo_files_domains.table.gz - 0.4 KB)
+0000.858 (0) Table wp_icl_node: Total expected rows (approximate): 0
+0000.861 (0) Table wp_icl_node: Total rows added: 0 in 0.00 seconds
+0000.867 (0) Table wp_icl_node: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_node.table.gz - 0.3 KB)
+0000.877 (0) Table wp_icl_reminders: Total expected rows (approximate): 0
+0000.879 (0) Table wp_icl_reminders: Total rows added: 0 in 0.00 seconds
+0000.884 (0) Table wp_icl_reminders: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_reminders.table.gz - 0.3 KB)
+0000.897 (0) Table wp_icl_string_packages: Total expected rows (approximate): 0
+0000.901 (0) Table wp_icl_string_packages: Total rows added: 0 in 0.00 seconds
+0000.905 (0) Table wp_icl_string_packages: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_string_packages.table.gz - 0.4 KB)
+0000.915 (0) Table wp_icl_string_pages: Total expected rows (approximate): 41412
+0001.023 (0) Table wp_icl_string_pages: binary mysqldump finished (writes: 30) in 0.10 seconds
+0001.034 (0) Table wp_icl_string_pages: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_string_pages.table.gz - 191.9 KB)
+0001.043 (0) Table wp_icl_string_positions: Total expected rows (approximate): 0
+0001.047 (0) Table wp_icl_string_positions: Total rows added: 0 in 0.00 seconds
+0001.051 (0) Table wp_icl_string_positions: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_string_positions.table.gz - 0.3 KB)
+0001.065 (0) Table wp_icl_string_status: Total expected rows (approximate): 0
+0001.067 (0) Table wp_icl_string_status: Total rows added: 0 in 0.00 seconds
+0001.071 (0) Table wp_icl_string_status: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_string_status.table.gz - 0.4 KB)
+0001.081 (0) Table wp_icl_string_translations: Total expected rows (approximate): 15
+0001.086 (0) Table wp_icl_string_translations: Total rows added: 15 in 0.00 seconds
+0001.090 (0) Table wp_icl_string_translations: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_string_translations.table.gz - 0.8 KB)
+0001.101 (0) Table wp_icl_string_urls: Total expected rows (approximate): 61
+0001.107 (0) Table wp_icl_string_urls: Total rows added: 61 in 0.00 seconds
+0001.111 (0) Table wp_icl_string_urls: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_string_urls.table.gz - 1 KB)
+0001.120 (0) Table wp_icl_strings: Total expected rows (approximate): 8708
+0001.247 (0) Table wp_icl_strings: binary mysqldump finished (writes: 45) in 0.12 seconds
+0001.270 (0) Table wp_icl_strings: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_strings.table.gz - 553.1 KB)
+0001.280 (0) Table wp_icl_translate: Total expected rows (approximate): 45
+0001.285 (0) Table wp_icl_translate: Total rows added: 45 in 0.00 seconds
+0001.290 (0) Table wp_icl_translate: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_translate.table.gz - 14.7 KB)
+0001.300 (0) Table wp_icl_translate_job: Total expected rows (approximate): 9
+0001.304 (0) Table wp_icl_translate_job: Total rows added: 9 in 0.00 seconds
+0001.309 (0) Table wp_icl_translate_job: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_translate_job.table.gz - 0.6 KB)
+0001.324 (0) Table wp_icl_translation_batches: Total expected rows (approximate): 5
+0001.328 (0) Table wp_icl_translation_batches: Total rows added: 5 in 0.00 seconds
+0001.333 (0) Table wp_icl_translation_batches: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_translation_batches.table.gz - 0.5 KB)
+0001.343 (0) Table wp_icl_translation_status: Total expected rows (approximate): 19
+0001.348 (0) Table wp_icl_translation_status: Total rows added: 20 in 0.00 seconds
+0001.353 (0) Table wp_icl_translation_status: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_translation_status.table.gz - 9.2 KB)
+0001.363 (0) Table wp_icl_translations: Total expected rows (approximate): 102
+0001.368 (0) Table wp_icl_translations: Total rows added: 104 in 0.00 seconds
+0001.373 (0) Table wp_icl_translations: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_translations.table.gz - 1.4 KB)
+0001.384 (0) Table wp_nf3_action_meta: Total expected rows (approximate): 196
+0001.389 (0) Table wp_nf3_action_meta: Total rows added: 196 in 0.00 seconds
+0001.394 (0) Table wp_nf3_action_meta: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_action_meta.table.gz - 2.6 KB)
+0001.406 (0) Table wp_nf3_actions: Total expected rows (approximate): 8
+0001.413 (0) Table wp_nf3_actions: Total rows added: 8 in 0.00 seconds
+0001.421 (0) Table wp_nf3_actions: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_actions.table.gz - 0.5 KB)
+0001.433 (0) Table wp_nf3_chunks: Total expected rows (approximate): 0
+0001.438 (0) Table wp_nf3_chunks: Total rows added: 0 in 0.00 seconds
+0001.443 (0) Table wp_nf3_chunks: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_chunks.table.gz - 0.3 KB)
+0001.454 (0) Table wp_nf3_field_meta: Total expected rows (approximate): 624
+0001.461 (0) Table wp_nf3_field_meta: Total rows added: 624 in 0.00 seconds
+0001.465 (0) Table wp_nf3_field_meta: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_field_meta.table.gz - 4.5 KB)
+0001.474 (0) Table wp_nf3_fields: Total expected rows (approximate): 12
+0001.478 (0) Table wp_nf3_fields: Total rows added: 12 in 0.00 seconds
+0001.482 (0) Table wp_nf3_fields: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_fields.table.gz - 0.8 KB)
+0001.492 (0) Table wp_nf3_form_meta: Total expected rows (approximate): 226
+0001.501 (0) Table wp_nf3_form_meta: Total rows added: 226 in 0.01 seconds
+0001.507 (0) Table wp_nf3_form_meta: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_form_meta.table.gz - 2.7 KB)
+0001.520 (0) Table wp_nf3_forms: Total expected rows (approximate): 2
+0001.524 (0) Table wp_nf3_forms: Total rows added: 2 in 0.00 seconds
+0001.528 (0) Table wp_nf3_forms: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_forms.table.gz - 0.5 KB)
+0001.538 (0) Table wp_nf3_object_meta: Total expected rows (approximate): 0
+0001.542 (0) Table wp_nf3_object_meta: Total rows added: 0 in 0.00 seconds
+0001.546 (0) Table wp_nf3_object_meta: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_object_meta.table.gz - 0.3 KB)
+0001.559 (0) Table wp_nf3_objects: Total expected rows (approximate): 0
+0001.563 (0) Table wp_nf3_objects: Total rows added: 0 in 0.00 seconds
+0001.567 (0) Table wp_nf3_objects: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_objects.table.gz - 0.3 KB)
+0001.581 (0) Table wp_nf3_relationships: Total expected rows (approximate): 0
+0001.587 (0) Table wp_nf3_relationships: Total rows added: 0 in 0.00 seconds
+0001.592 (0) Table wp_nf3_relationships: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_relationships.table.gz - 0.3 KB)
+0001.602 (0) Table wp_nf3_upgrades: Total expected rows (approximate): 2
+0001.607 (0) Table wp_nf3_upgrades: Total rows added: 2 in 0.00 seconds
+0001.611 (0) Table wp_nf3_upgrades: finishing file (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_upgrades.table.gz - 4.3 KB)
+0001.623 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_options.table.gz (1/47): adding to final database dump
+0001.659 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_users.table.gz (2/47): adding to final database dump
+0001.662 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_usermeta.table.gz (3/47): adding to final database dump
+0001.666 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_commentmeta.table.gz (4/47): adding to final database dump
+0001.670 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_comments.table.gz (5/47): adding to final database dump
+0001.674 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_links.table.gz (6/47): adding to final database dump
+0001.678 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_postmeta.table.gz (7/47): adding to final database dump
+0001.690 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_posts.table.gz (8/47): adding to final database dump
+0001.758 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_term_relationships.table.gz (9/47): adding to final database dump
+0001.762 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_term_taxonomy.table.gz (10/47): adding to final database dump
+0001.766 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_termmeta.table.gz (11/47): adding to final database dump
+0001.770 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_terms.table.gz (12/47): adding to final database dump
+0001.781 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_yoast_seo_links.table.gz (13/47): adding to final database dump
+0001.793 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_yoast_seo_meta.table.gz (14/47): adding to final database dump
+0001.801 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_content_status.table.gz (15/47): adding to final database dump
+0001.815 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_core_status.table.gz (16/47): adding to final database dump
+0001.820 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_flags.table.gz (17/47): adding to final database dump
+0001.830 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_languages.table.gz (18/47): adding to final database dump
+0001.835 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_languages_translations.table.gz (19/47): adding to final database dump
+0001.854 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_locale_map.table.gz (20/47): adding to final database dump
+0001.859 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_message_status.table.gz (21/47): adding to final database dump
+0001.865 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_mo_files_domains.table.gz (22/47): adding to final database dump
+0001.869 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_node.table.gz (23/47): adding to final database dump
+0001.873 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_reminders.table.gz (24/47): adding to final database dump
+0001.879 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_string_packages.table.gz (25/47): adding to final database dump
+0001.882 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_string_pages.table.gz (26/47): adding to final database dump
+0001.935 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_string_positions.table.gz (27/47): adding to final database dump
+0001.939 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_string_status.table.gz (28/47): adding to final database dump
+0001.944 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_string_translations.table.gz (29/47): adding to final database dump
+0001.948 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_string_urls.table.gz (30/47): adding to final database dump
+0001.952 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_strings.table.gz (31/47): adding to final database dump
+0002.040 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_translate.table.gz (32/47): adding to final database dump
+0002.049 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_translate_job.table.gz (33/47): adding to final database dump
+0002.053 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_translation_batches.table.gz (34/47): adding to final database dump
+0002.057 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_translation_status.table.gz (35/47): adding to final database dump
+0002.064 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_icl_translations.table.gz (36/47): adding to final database dump
+0002.070 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_action_meta.table.gz (37/47): adding to final database dump
+0002.074 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_actions.table.gz (38/47): adding to final database dump
+0002.079 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_chunks.table.gz (39/47): adding to final database dump
+0002.083 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_field_meta.table.gz (40/47): adding to final database dump
+0002.087 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_fields.table.gz (41/47): adding to final database dump
+0002.091 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_form_meta.table.gz (42/47): adding to final database dump
+0002.096 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_forms.table.gz (43/47): adding to final database dump
+0002.099 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_object_meta.table.gz (44/47): adding to final database dump
+0002.103 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_objects.table.gz (45/47): adding to final database dump
+0002.106 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_relationships.table.gz (46/47): adding to final database dump
+0002.113 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db-table-wp_nf3_upgrades.table.gz (47/47): adding to final database dump
+0002.164 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db.gz: finished writing out complete database file (1176 KB)
+0002.209 (0) Total database tables backed up: 47 (backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db.gz, size: 1210150, sha256)
+0002.224 (0) backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db.gz: db: This file has not yet been successfully uploaded: will queue
+0002.226 (0) Saving backup history. Total backup size: 1.2 MB
+0002.233 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0002.243 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0002.247 (0) No remote despatch: user chose no remote backup service
+0002.249 (0) Recording as successfully uploaded: backup_2018-10-05-0815_kodeFant_a5a0753cbe6e-db.gz
+0002.253 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0002.255 (0) Resume backup (a5a0753cbe6e, 0): finish run
+0002.260 (0) Decremented the semaphore (fd) by 1
+0002.264 (0) Semaphore (fd) unlocked
+0002.266 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0002.295 (0) No email will/can be sent - the user has not configured an email address.
+0002.298 (0) The backup apparently succeeded and is now complete
