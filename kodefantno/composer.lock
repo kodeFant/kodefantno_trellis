@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "28b12ea62af7783affae5c743afe7051",
+    "content-hash": "1adb91c7581beeb0eced8c12931d34c9",
     "packages": [
         {
             "name": "composer/installers",
@@ -682,6 +682,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/google-analytics-for-wordpress/"
+        },
+        {
+            "name": "wpackagist-plugin/header-and-footer-scripts",
+            "version": "2.1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/header-and-footer-scripts/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/header-and-footer-scripts.zip?timestamp=1515476056",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/header-and-footer-scripts/"
         },
         {
             "name": "wpackagist-plugin/jetpack",
