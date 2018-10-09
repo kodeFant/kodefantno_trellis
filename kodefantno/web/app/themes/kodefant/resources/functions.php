@@ -187,3 +187,10 @@ function disable_authors_publish_cap()
     $author->remove_cap('publish_posts');
 }
 add_action('init', 'disable_authors_publish_cap');
+
+// Responsive Youtube Video with JetPack
+function jetpackme_responsive_videos_setup()
+{
+    add_theme_support('jetpack-responsive-videos');
+}
+add_action('after_setup_theme', 'jetpackme_responsive_videos_setup');
