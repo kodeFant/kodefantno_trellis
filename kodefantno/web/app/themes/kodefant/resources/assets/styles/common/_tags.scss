@@ -45,6 +45,10 @@ img {
   height: auto;
   max-width: 100%;
   vertical-align: middle;
+
+  &.size-full {
+    width: 100% !important;
+  }
 }
 
 ins {

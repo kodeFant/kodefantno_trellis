@@ -194,3 +194,12 @@ function jetpackme_responsive_videos_setup()
     add_theme_support('jetpack-responsive-videos');
 }
 add_action('after_setup_theme', 'jetpackme_responsive_videos_setup');
+
+
+// Responsive Images With Caption
+function my_img_caption_shortcode_width($width, $atts, $content)
+{
+    return 0;
+}
+
+add_filter('img_caption_shortcode_width', 'my_img_caption_shortcode_width', 10, 3);
