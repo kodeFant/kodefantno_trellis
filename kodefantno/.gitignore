@@ -4,7 +4,7 @@ web/app/plugins/*
 web/app/mu-plugins/*/
 web/app/upgrade
 web/app/uploads/*
-!web/app/uploads/prism
+!web/app/uploads/.gitkeep
 
 # WordPress
 web/wp
