@@ -71,7 +71,7 @@
 
     @include breakpoint(tablet) {
       display: grid;
-      grid-template-columns: minmax(30rem, auto) minmax(10rem, 20rem);
+      grid-template-columns: minmax(30rem, 40rem) minmax(10rem, 20rem);
       grid-template-areas:
         "post_header post_header"
         "post_content ."
@@ -108,7 +108,7 @@
     }
 
     @include breakpoint(laptop) {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: minmax(30rem, $grid-main-max-margin) minmax(10rem, 20rem);
       grid-template-areas: "post_header post_header" "post_content post_sidebar";
       grid-gap: 1rem;
     }
