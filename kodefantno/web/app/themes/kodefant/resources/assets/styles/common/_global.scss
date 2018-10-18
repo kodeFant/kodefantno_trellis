@@ -133,7 +133,7 @@ footer {
   max-width: 100%;
 
   @include breakpoint(tablet) {
-    grid-template-columns: minmax(20rem, 40rem) minmax(10rem, auto);
+    grid-template-columns: minmax(20rem, $grid-main-max-margin) minmax(10rem, auto);
 
     /* max-width: 40rem; */
   }
