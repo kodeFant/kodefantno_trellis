@@ -120,6 +120,6 @@ pre[class*="language-"] {
   }
 
   @include breakpoint(tablet) {
-    max-width: calc($grid-main-max-margin - 2rem);
+    max-width: 38rem;
   }
 }
