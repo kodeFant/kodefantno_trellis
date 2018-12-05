@@ -101,6 +101,10 @@ header {
     margin: 0 $desktop-margin;
   }
 
+  @include breakpoint(laptop) {
+    margin: 0 auto;
+  }
+
   ol {
     list-style: decimal inside;
   }
