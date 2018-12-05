@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "078c399a4cf3842f49e0126a383ddf62",
+    "content-hash": "5ff6f45702cfcad38d54ddf84d24898f",
     "packages": [
         {
             "name": "composer/installers",
@@ -207,16 +207,16 @@
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
-            "version": "1.0.0.2",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
-                "reference": "7941acd71725710a789daabe0557429da63e7ac6"
+                "reference": "fd12f5cfe27223b92b0f4bbc097059eb23cc56c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/7941acd71725710a789daabe0557429da63e7ac6",
-                "reference": "7941acd71725710a789daabe0557429da63e7ac6",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/fd12f5cfe27223b92b0f4bbc097059eb23cc56c4",
+                "reference": "fd12f5cfe27223b92b0f4bbc097059eb23cc56c4",
                 "shasum": ""
             },
             "require": {
@@ -240,7 +240,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -252,7 +252,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2018-01-29T14:49:29+00:00"
+            "time": "2018-11-09T20:10:38+00:00"
         },
         {
             "name": "kodeFant/advanced-custom-fields-pro",
@@ -645,15 +645,15 @@
         },
         {
             "name": "wpackagist-plugin/autoptimize",
-            "version": "2.4.1",
+            "version": "2.4.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autoptimize/",
-                "reference": "tags/2.4.1"
+                "reference": "tags/2.4.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.4.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.4.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -664,16 +664,36 @@
             "homepage": "https://wordpress.org/plugins/autoptimize/"
         },
         {
-            "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "7.2.0",
+            "name": "wpackagist-plugin/custom-post-type-ui",
+            "version": "1.6.1",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/7.2.0"
+                "url": "https://plugins.svn.wordpress.org/custom-post-type-ui/",
+                "reference": "tags/1.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.7.2.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.6.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/custom-post-type-ui/"
+        },
+        {
+            "name": "wpackagist-plugin/google-analytics-for-wordpress",
+            "version": "7.3.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
+                "reference": "tags/7.3.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.7.3.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -705,15 +725,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "6.6.1",
+            "version": "6.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/6.6.1"
+                "reference": "tags/6.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.6.6.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.6.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -745,15 +765,15 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "3.3.17",
+            "version": "3.3.19.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/3.3.17"
+                "reference": "tags/3.3.19.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.3.17.zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.3.19.1.zip",
                 "reference": null,
                 "shasum": null
             },
